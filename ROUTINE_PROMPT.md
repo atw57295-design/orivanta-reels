@@ -24,7 +24,7 @@ TOMORROW = the day after today in Asia/Nicosia, unless the run's instructions na
    publicationDate {dateTime: "<TOMORROW>T10:00:00", timezone: "Asia/Nicosia"}, autoPublish true, media [that URL],
    providers youtube + tiktok + facebook,
    youtubeData {title: hook (<100 chars, no < >), type "short", privacy "public", madeForKids false, isAiGeneratedContent true},
-   tiktokData {isAigc true, privacyOption "PUBLIC_TO_EVERYONE"}, facebookData {type "REEL", title: hook}.
+   tiktokData {title: hook, isAigc true, privacyOption "PUBLIC_TO_EVERYONE"}, facebookData {type "REEL", title: hook}.
    Text: hook + one curiosity line + 4 hashtags (#history #mystery #didyouknow #orivanta).
 7. Report: the Metricool plannerUrl, the video URL, and the video length.
 If any step fails (especially the voice: never schedule a video without its voiceover), schedule nothing and report exactly which step failed and the error.
