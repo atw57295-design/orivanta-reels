@@ -1,0 +1,56 @@
+{
+ "title": "The 2,000-year-old computer",
+ "scenes": [
+  {
+   "text": "In 1901, divers pulled a lump of *rotten bronze* out of the sea.",
+   "bg": "navy",
+   "motif": [
+    "number",
+    "1901"
+   ]
+  },
+  {
+   "text": "It came from a Greek shipwreck, and it was *2,000 years old.*",
+   "bg": "blue",
+   "motif": [
+    "waves"
+   ]
+  },
+  {
+   "text": "Nobody cared, until scientists looked *inside.*",
+   "bg": "navy",
+   "motif": [
+    "gear"
+   ]
+  },
+  {
+   "text": "Over *thirty bronze gears,* each one tiny and perfectly cut.",
+   "bg": "blue",
+   "motif": [
+    "gear"
+   ]
+  },
+  {
+   "text": "It tracked the *Moon,* predicted *eclipses,* and even timed the *Olympic Games.*",
+   "bg": "navy",
+   "motif": [
+    "eclipse"
+   ]
+  },
+  {
+   "text": "Nothing this advanced appears again for over *a thousand years.*",
+   "bg": "blue",
+   "motif": [
+    "number",
+    "1,000+"
+   ]
+  },
+  {
+   "text": "Follow for more *lost secrets* of history.",
+   "bg": "navy",
+   "motif": [
+    "logo"
+   ]
+  }
+ ]
+}
