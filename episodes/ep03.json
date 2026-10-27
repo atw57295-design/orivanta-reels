@@ -1,0 +1,12 @@
+{
+ "title": "Göbekli Tepe",
+ "scenes": [
+  {"text": "This temple is about *6,000 years older* than Stonehenge.", "bg": "navy", "motif": ["number", "9600 BC"]},
+  {"text": "It was built around *9600 BC,* before pottery, metal, or writing.", "bg": "blue", "motif": ["gear"]},
+  {"text": "Then its builders did something strange: they *buried it,* on purpose.", "bg": "navy", "motif": ["eclipse"]},
+  {"text": "Covered in rubble, it stayed hidden for over *eleven thousand years.*", "bg": "blue", "motif": ["waves"]},
+  {"text": "Archaeologists thought *farming came first.* Göbekli Tepe flipped that idea upside down.", "bg": "navy", "motif": ["number", "9600 BC"]},
+  {"text": "History is *far stranger* than the order we picture it in.", "bg": "blue", "motif": ["waves"]},
+  {"text": "Follow for more *lost secrets* of history.", "bg": "navy", "motif": ["logo"]}
+ ]
+}
