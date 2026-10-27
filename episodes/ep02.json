@@ -1,0 +1,12 @@
+{
+ "title": "Cleopatra's timeline",
+ "scenes": [
+  {"text": "Cleopatra lived closer to the *Moon landing* than to the *Great Pyramid.*", "bg": "navy", "motif": ["number", "2026"]},
+  {"text": "The Great Pyramid was built around *2560 BC.*", "bg": "blue", "motif": ["number", "2560 BC"]},
+  {"text": "Cleopatra was born about *2,500 years later,* in 69 BC.", "bg": "navy", "motif": ["gear"]},
+  {"text": "By her time, the pyramids were already *ancient ruins.*", "bg": "blue", "motif": ["eclipse"]},
+  {"text": "Then came the *Moon landing* in 1969, about *2,000 years* after her.", "bg": "navy", "motif": ["number", "1969"]},
+  {"text": "History is *far stranger* than the order we picture it in.", "bg": "blue", "motif": ["waves"]},
+  {"text": "Follow for more *lost secrets* of history.", "bg": "navy", "motif": ["logo"]}
+ ]
+}
