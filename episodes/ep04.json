@@ -1,0 +1,12 @@
+{
+ "title": "Damascus steel",
+ "scenes": [
+  {"text": "The *sword recipe* the world forgot.", "bg": "navy", "motif": ["gear"]},
+  {"text": "Damascus steel blades were famed for being *razor sharp* and remarkably tough.", "bg": "blue", "motif": ["waves"]},
+  {"text": "Their surface showed *rippled, watery patterns* that no one could mistake.", "bg": "navy", "motif": ["waves"]},
+  {"text": "The steel was made from *wootz,* ingots produced in India and traded across the Middle East.", "bg": "blue", "motif": ["gear"]},
+  {"text": "Then, around the *1700s,* the original method of making it faded away.", "bg": "navy", "motif": ["eclipse"]},
+  {"text": "Modern metallurgists still debate *exactly how* those blades were forged.", "bg": "blue", "motif": ["gear"]},
+  {"text": "Follow for more *lost secrets* of history.", "bg": "navy", "motif": ["logo"]}
+ ]
+}
