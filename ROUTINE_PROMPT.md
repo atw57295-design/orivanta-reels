@@ -34,8 +34,9 @@ as the render/voice generation actually needs.
    content_plan.json on main, which is exactly how an earlier run's output got lost). Media URL =
    https://raw.githubusercontent.com/atw57295-design/orivanta-reels/main/videos/epNN.mp4
    Confirm with curl -I that the URL returns 200 before scheduling.
-6. Schedule with Metricool createScheduledPost: blogId 7596870, date TOMORROW 10:00 Asia/Damascus,
-   publicationDate {dateTime: "<TOMORROW>T10:00:00", timezone: "Asia/Damascus"}, autoPublish true, media [that URL],
+6. Schedule with Metricool createScheduledPost: blogId 7596870, date TOMORROW 18:00 Asia/Damascus
+   (this targets the US/Europe evening engagement window, not Damascus daytime — the audience is English-speaking),
+   publicationDate {dateTime: "<TOMORROW>T18:00:00", timezone: "Asia/Damascus"}, autoPublish true, media [that URL],
    providers youtube + tiktok + facebook,
    youtubeData {title: hook (<100 chars, no < >), type "short", privacy "public", madeForKids false, isAiGeneratedContent true},
    tiktokData {title: hook, isAigc true, privacyOption "PUBLIC_TO_EVERYONE"}, facebookData {type "REEL", title: hook}.
