@@ -198,5 +198,15 @@
   "angle": "Unsolved mystery",
   "status": "السكربت قيد الكتابة",
   "networks": "YouTube Shorts, TikTok, Facebook Reels"
+ },
+ {
+  "id": 21,
+  "date": "2026-10-31",
+  "time": "18:00",
+  "topic": "The Day the Internet Almost Died (bonus)",
+  "hook": "What if the entire internet vanished — for everyone, at once?",
+  "angle": "Shock hook test (owner-requested, modeled on a viral AI-tool review video)",
+  "status": "الفيديو جاهز، والصوت جاهز، ومجدول",
+  "networks": "YouTube Shorts, TikTok, Facebook Reels"
  }
 ]
