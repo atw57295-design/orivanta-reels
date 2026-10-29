@@ -1,0 +1,9 @@
+{
+ "title": "The Day the Internet Almost Died (Higgsfield test)",
+ "scenes": [
+  {"text": "What if the *entire internet* vanished — for everyone, at once?", "bg": "navy", "motif": ["eclipse"]},
+  {"text": "In *1997,* one misconfigured router nearly plunged much of the internet into *darkness.*", "bg": "blue", "motif": ["number", "1997"]},
+  {"text": "Today, about *99%* of international data runs through *undersea cables* you'll never see.", "bg": "navy", "motif": ["number", "99%"]},
+  {"text": "A few cuts in the right place could black out *entire countries.* Follow for more *lost secrets* of history.", "bg": "blue", "motif": ["logo"]}
+ ]
+}
