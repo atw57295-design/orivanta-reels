@@ -1,0 +1,12 @@
+{
+ "title": "The Day the Internet Almost Died",
+ "scenes": [
+  {"text": "What if the *entire internet* vanished — for everyone, at once?", "bg": "navy", "motif": ["eclipse"]},
+  {"text": "In *1997,* one misconfigured router in Virginia nearly made that real.", "bg": "blue", "motif": ["number", "1997"]},
+  {"text": "It flooded the world's networks with bad data, and huge parts of the *internet went dark.*", "bg": "navy", "motif": ["waves"]},
+  {"text": "Today it's even more fragile: about *99% of international data* runs through *undersea cables* you'll never see.", "bg": "blue", "motif": ["number", "99%"]},
+  {"text": "A handful of cuts in the right place could cut off *entire countries* overnight.", "bg": "navy", "motif": ["gear"]},
+  {"text": "We built a civilization that runs on wires sitting at the *bottom of the ocean.*", "bg": "blue", "motif": ["waves"]},
+  {"text": "Follow for more *lost secrets* of history.", "bg": "navy", "motif": ["logo"]}
+ ]
+}
