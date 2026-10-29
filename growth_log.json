@@ -1,0 +1,77 @@
+[
+  {
+    "date": "2026-10-23",
+    "note": "account_setup",
+    "tiktok_followers": 0,
+    "youtube_subscribers": 0,
+    "facebook_followers": null,
+    "tiktok_views": null,
+    "tiktok_likes": null,
+    "youtube_views": null,
+    "facebook_reels_views": null,
+    "facebook_reels_likes": null
+  },
+  {
+    "date": "2026-10-24",
+    "note": null,
+    "tiktok_followers": 0,
+    "youtube_subscribers": 1,
+    "facebook_followers": 1,
+    "tiktok_views": null,
+    "tiktok_likes": null,
+    "youtube_views": 0,
+    "facebook_reels_views": null,
+    "facebook_reels_likes": null
+  },
+  {
+    "date": "2026-10-25",
+    "note": "ep01_antikythera_published",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 3,
+    "facebook_followers": 3,
+    "tiktok_views": 290,
+    "tiktok_likes": 6,
+    "youtube_views": 88,
+    "facebook_reels_views": 249,
+    "facebook_reels_likes": 3
+  },
+  {
+    "date": "2026-10-26",
+    "note": null,
+    "tiktok_followers": 3,
+    "youtube_subscribers": 3,
+    "facebook_followers": 3,
+    "tiktok_views": null,
+    "tiktok_likes": null,
+    "youtube_views": null,
+    "facebook_reels_views": null,
+    "facebook_reels_likes": null
+  },
+  {
+    "date": "2026-10-27",
+    "note": "ep02_cleopatra_published",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 3,
+    "facebook_followers": 3,
+    "tiktok_views": 231,
+    "tiktok_likes": 3,
+    "youtube_views": null,
+    "facebook_reels_views": 137,
+    "facebook_reels_likes": 1
+  },
+  {
+    "date": "2026-10-28",
+    "note": "ep03_gobekli_tepe_published_on_all_3_platforms; routine_bug_recurred_on_ep04_manual_backstop_used; metricool_analytics_for_this_date_not_yet_finalized_at_time_of_this_run_so_followers_views_below_are_last_confirmed_values_from_2026-10-27",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 3,
+    "facebook_followers": 3,
+    "tiktok_views": 231,
+    "tiktok_likes": 3,
+    "youtube_views": null,
+    "facebook_reels_views": 137,
+    "facebook_reels_likes": 1,
+    "data_as_of": "2026-10-27",
+    "deadline_window_started": "2026-10-28",
+    "deadline_days_remaining": 5
+  }
+]
