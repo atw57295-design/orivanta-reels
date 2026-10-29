@@ -73,5 +73,20 @@
     "data_as_of": "2026-10-27",
     "deadline_window_started": "2026-10-28",
     "deadline_days_remaining": 5
+  },
+  {
+    "date": "2026-10-29",
+    "note": "ep04_damascus_steel_published_on_all_3_platforms; ep05_oxford_aztecs_rendered_and_scheduled_for_2026-10-30; bonus_ep21_internet_added_and_scheduled_for_2026-10-31; no_routine_bug_detected_today; metricool_analytics_still_lagging_one_day_so_followers_views_below_are_last_confirmed_values_from_2026-10-28",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 3,
+    "facebook_followers": 3,
+    "tiktok_views": 273,
+    "tiktok_likes": 1,
+    "youtube_views": null,
+    "facebook_reels_views": 194,
+    "facebook_reels_likes": 2,
+    "data_as_of": "2026-10-28",
+    "deadline_window_started": "2026-10-28",
+    "deadline_days_remaining": 3
   }
 ]
