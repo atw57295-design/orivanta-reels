@@ -88,5 +88,20 @@
     "data_as_of": "2026-10-28",
     "deadline_window_started": "2026-10-28",
     "deadline_days_remaining": 3
+  },
+  {
+    "date": "2026-10-30",
+    "note": "ep05_oxford_vs_aztecs_published_on_all_3_platforms_today; ep21_bonus_higgsfield_cinematic_scheduled_for_2026-10-31_18:00_status_pending_as_expected_not_yet_due; no_routine_bug_detected_today; metricool_analytics_still_lagging_one_day_so_followers_views_below_are_last_confirmed_values_from_2026-10-29; followers_flat_on_all_3_platforms_since_2026-10-25; facebook_reels_views_dropped_to_0_in_latest_data_point_vs_194_prior_day_likely_reporting_lag_not_confirmed_as_real_drop",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 3,
+    "facebook_followers": 3,
+    "tiktok_views": 265,
+    "tiktok_likes": 3,
+    "youtube_views": null,
+    "facebook_reels_views": 0,
+    "facebook_reels_likes": null,
+    "data_as_of": "2026-10-29",
+    "deadline_window_started": "2026-10-28",
+    "deadline_days_remaining": 2
   }
 ]
