@@ -133,5 +133,22 @@
     "data_as_of": "2026-10-31",
     "deadline_window_started": "2026-10-28",
     "deadline_days_remaining": 0
+  },
+  {
+    "date": "2026-11-02",
+    "note": "POST-DEADLINE day 1 (deadline window 2026-10-28 to 2026-11-01 has now expired): NO episode published or scheduled for 2026-11-01 OR 2026-11-02 - Metricool getScheduledPosts for 2026-10-31 to 2026-11-04 returns only the 2026-10-31 bonus post (published all 3 platforms); content_plan.json row id=6 (2026-11-02, Voynich Manuscript) is still status 'السكربت قيد الكتابة' (script not started) and episodes/ep06.json does not exist; zero git commits landed today - the daily routine did not run or produced nothing at all for 2 consecutive days, worse than the earlier script-without-render bug; youtube_subscribers rose 4->5 between 2026-10-31 and 2026-11-01 (second straight day of +1), but tiktok_followers and facebook_followers remain flat at 3 since 2026-10-25 (8 straight days)",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 5,
+    "facebook_followers": 3,
+    "tiktok_views": null,
+    "tiktok_likes": null,
+    "youtube_views": null,
+    "facebook_reels_views": null,
+    "facebook_reels_likes": null,
+    "data_as_of": "2026-11-01",
+    "deadline_window_started": "2026-10-28",
+    "deadline_window_ended": "2026-11-01",
+    "deadline_days_remaining": 0,
+    "deadline_status": "EXPIRED"
   }
 ]
