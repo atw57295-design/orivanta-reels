@@ -1,0 +1,12 @@
+{
+ "title": "Voynich Manuscript",
+ "scenes": [
+  {"text": "This book is *600 years old* — and to this day, *no one has cracked* what it says.", "bg": "navy", "motif": ["number", "600"]},
+  {"text": "It's called the *Voynich Manuscript:* 240 pages, thousands of words, in a script *nobody on Earth recognizes.*", "bg": "blue", "motif": ["eclipse"]},
+  {"text": "In World War Two, the same *codebreakers* who cracked Nazi *Enigma* tried next — and *walked away empty-handed.*", "bg": "navy", "motif": ["gear"]},
+  {"text": "Its pages show plants that *don't exist in nature,* strange star charts, and women bathing in *pools linked by pipes.*", "bg": "blue", "motif": ["waves"]},
+  {"text": "A century of top cryptographers, linguists, and now *AI language models* have thrown everything at it. Confirmed words decoded: *zero.*", "bg": "navy", "motif": ["number", "0"]},
+  {"text": "Every 'solved' claim since has been picked apart by scholars within *months.* The book always *wins.*", "bg": "blue", "motif": ["waves"]},
+  {"text": "The book that *beat every expert* for 600 years straight. Follow for more *lost secrets* of history.", "bg": "navy", "motif": ["logo"]}
+ ]
+}

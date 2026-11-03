@@ -252,8 +252,12 @@ def main():
         else:
             cv.alpha_composite(sc["bg"])
         draw_motif(cv, sc, lt, durs[i])
+        # Hook scene (i==0): the full line must be ON SCREEN within ~1.3s, not trickled across
+        # the whole scene -- viewers decide to stay or swipe in the first 1-3s, and they need the
+        # complete hook text visible fast, not word-by-word over 3-5+ seconds.
+        reveal_window = 1.3 if i == 0 else durs[i] * 0.78
         for k in range(len(sc["words"])):
-            tk = 0.15 + sc["times"][k] * durs[i] * 0.78
+            tk = 0.15 + sc["times"][k] * reveal_window
             if lt >= tk:
                 age = lt - tk; r = random.Random(tick * 31 + k)
                 pop = 1 + 0.28 * max(0, 1 - age / 0.25) ** 2
