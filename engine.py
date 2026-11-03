@@ -231,7 +231,10 @@ def main():
     a = sys.argv[1:]
     ep, out = a[0], a[1]
     opt = lambda k: a[a.index(k) + 1] if k in a else None
-    logo = make_logo(opt("--logo") or "logo.png"); badge = logo.resize((120, 120), Image.Resampling.LANCZOS)
+    # Default to the real brand asset. Previously this fell back to "logo.png" in the repo
+    # root, which never existed -- every episode so far silently rendered a generic
+    # placeholder badge instead of the actual Orivanta logo.
+    logo = make_logo(opt("--logo") or "brand/orivanta_logo_circle.png"); badge = logo.resize((120, 120), Image.Resampling.LANCZOS)
     scenes = json.load(open(ep))["scenes"]
     durs = [est(s) for s in scenes]; audio = opt("--audio")
     if audio: durs = retime(audio, durs)
