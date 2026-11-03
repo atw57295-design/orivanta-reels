@@ -150,5 +150,23 @@
     "deadline_window_ended": "2026-11-01",
     "deadline_days_remaining": 0,
     "deadline_status": "EXPIRED"
+  },
+  {
+    "date": "2026-11-03",
+    "note": "POST-DEADLINE day 2: today's episode DID publish on all 4 networks (tiktok, facebook, youtube, instagram) - a Roman-artifact/dodecahedron mystery hook ('Nobody knows what this Roman object was for... not one Roman text mentions them') - but it is completely untracked in this repo: content_plan.json row id=7 (2026-11-03, 'Roman concrete') still shows status 'السكربت قيد الكتابة' unfinished, and no episodes/ep07.json or videos/ep07.mp4 exists, meaning today's actual published video was produced/scheduled through some path outside the documented pipeline; separately, two NEW Instagram-only posts were added today for 2026-11-04 19:00 (Roman cup) and 2026-11-05 19:00 (Greek fire) that match no content_plan.json row at all and violate the explicit standing rule in ROUTINE_PROMPT.md to keep instagram out of providers until a run is told otherwise; on the plus side, ep06 (Voynich, 2026-11-04) and ep08 (Dancing Plague, 2026-11-05) are correctly scripted, rendered with the real logo, committed to main, and PENDING in Metricool exactly as content_plan.json says; growth: tiktok_followers and facebook_followers still flat at 3 (10 straight confirmed days since 2026-10-25), youtube_subscribers flat at 5 for 2 confirmed days after the earlier 4->5 bump; metricool follower analytics still lag to 2026-11-02, only facebook_reels_views/likes have a same-day 2026-11-03 partial reading",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 5,
+    "facebook_followers": 3,
+    "tiktok_views": null,
+    "tiktok_likes": null,
+    "youtube_views": null,
+    "facebook_reels_views": 253,
+    "facebook_reels_likes": 1,
+    "data_as_of": "2026-11-02 (followers/subscribers); 2026-11-03 partial (facebook reel views/likes)",
+    "deadline_window_started": "2026-10-28",
+    "deadline_window_ended": "2026-11-01",
+    "deadline_days_remaining": 0,
+    "deadline_status": "EXPIRED",
+    "days_past_deadline": 2
   }
 ]
