@@ -168,5 +168,23 @@
     "deadline_days_remaining": 0,
     "deadline_status": "EXPIRED",
     "days_past_deadline": 2
+  },
+  {
+    "date": "2026-11-04",
+    "note": "POST-DEADLINE day 3: today's main episode (ep06, Voynich Manuscript, 'Nobody on Earth can read this book') published successfully at 18:00 Asia/Damascus on all 3 primary networks (facebook, tiktok, youtube) per Metricool, matching content_plan.json row id=6 exactly; zero git commits landed today, so the content_plan.json pipeline did not advance for upcoming rows (id=7 Roman concrete, id=9 Mary Celeste, id=10 Emu War all still 'script being written', no episodes/epNN.json or videos/epNN.mp4 for them); ESCALATING ISSUE: Metricool now shows a 4th, 5th and 6th post cluster that match NOTHING in content_plan.json at all and were never produced through this repo's pipeline -- 'Roman cup' (published 2026-11-04 19:00, Instagram-only), 'Greek fire' (pending 2026-11-05 19:00, Instagram-only, 5 days earlier than and worded differently from content_plan row id=11 which is dated 2026-11-10) and a 'jar a battery' post (pending 2026-11-06, scheduled across facebook+tiktok+youtube+instagram, 14 days earlier than and worded differently from content_plan row id=19 Baghdad Battery dated 2026-11-20); all of these use Instagram, which directly violates the explicit standing rule in ROUTINE_PROMPT.md to keep Instagram excluded from providers pending the owner's decision -- this is now 4 confirmed Instagram-rule violations (2026-11-03 19:00, 2026-11-04 19:00 both already PUBLISHED publicly, plus 2 more PENDING for 2026-11-05 and 2026-11-06) coming from a process outside the documented content_plan.json/episodes pipeline; growth: tiktok_followers and facebook_followers still flat at 3 (confirmed through 2026-11-03, 11 straight days since 2026-10-25), youtube_subscribers flat at 5 for a 3rd straight confirmed day; metricool follower/subscriber analytics still lag to 2026-11-03, no confirmed reading yet for 2026-11-04 itself",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 5,
+    "facebook_followers": 3,
+    "tiktok_views": 238,
+    "tiktok_likes": 2,
+    "youtube_views": null,
+    "facebook_reels_views": 253,
+    "facebook_reels_likes": 1,
+    "data_as_of": "2026-11-03",
+    "deadline_window_started": "2026-10-28",
+    "deadline_window_ended": "2026-11-01",
+    "deadline_days_remaining": 0,
+    "deadline_status": "EXPIRED",
+    "days_past_deadline": 3
   }
 ]
