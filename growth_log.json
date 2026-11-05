@@ -186,5 +186,23 @@
     "deadline_days_remaining": 0,
     "deadline_status": "EXPIRED",
     "days_past_deadline": 3
+  },
+  {
+    "date": "2026-11-05",
+    "note": "POST-DEADLINE day 4: today's main episode (ep08, Dancing Plague of 1518, 'In 1518, hundreds of people danced until they died') published successfully at 18:00 Asia/Damascus on all 3 primary networks (facebook, tiktok, youtube) per Metricool, matching content_plan.json row id=8 exactly, with strong hook/narrative per ROUTINE_PROMPT.md standard (stakes-first hook, mystery angle, correct hashtags); zero git commits landed today before this run, so the content_plan.json pipeline remains fully stalled: ep07 (Roman concrete, 2026-11-03) still has no episodes/ep07.json or videos/ep07.mp4 despite already publishing off-pipeline, and ep09 (Mary Celeste, 2026-11-06) and ep10 (Great Emu War, 2026-11-07) are both still status 'script being written' with nothing produced; ESCALATION: a 3rd Instagram-only off-pipeline post ('Greek fire') PUBLISHED today at 19:00 - 5 days earlier than and worded differently from content_plan row id=11 (dated 2026-11-10) - continuing the standing Instagram-rule violation (now 3 published + 2 pending violations); also found a NEW conflict: Metricool has a post scheduled for 2026-11-07 across tiktok/facebook/youtube/instagram ('No one on Earth can read this book') that duplicates ep06's Voynich Manuscript topic already published on 2026-11-04, and does NOT match content_plan row id=10 (Great Emu War) due that same date - meaning 11-07 is now double-booked with an unauthorized duplicate-topic post that may clash with or replace the documented pipeline's own episode; and the 'jar a battery' post for 2026-11-06 remains pending across 4 networks including instagram, 14 days earlier than content_plan id=19 (Baghdad Battery, 2026-11-20); growth: tiktok_followers and facebook_followers confirmed flat at 3 through 2026-11-04 (12 straight days since 2026-10-25), youtube_subscribers flat at 5 for a 4th straight confirmed day; metricool follower/subscriber analytics still lag one day, no confirmed reading yet for 2026-11-05 itself",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 5,
+    "facebook_followers": 3,
+    "tiktok_views": 212,
+    "tiktok_likes": 3,
+    "youtube_views": null,
+    "facebook_reels_views": 159,
+    "facebook_reels_likes": 1,
+    "data_as_of": "2026-11-04",
+    "deadline_window_started": "2026-10-28",
+    "deadline_window_ended": "2026-11-01",
+    "deadline_days_remaining": 0,
+    "deadline_status": "EXPIRED",
+    "days_past_deadline": 4
   }
 ]
