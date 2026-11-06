@@ -204,5 +204,23 @@
     "deadline_days_remaining": 0,
     "deadline_status": "EXPIRED",
     "days_past_deadline": 4
+  },
+  {
+    "date": "2026-11-06",
+    "note": "POST-DEADLINE day 5: NO content_plan.json/episodes-pipeline episode published today - ep09 (Mary Celeste, due 2026-11-06) is still status 'السكربت قيد الكتابة' (script not started), no episodes/ep09.json or videos/ep09.mp4 exists, and ZERO git commits landed today (last commit 2026-11-05 21:07 UTC). Instead, an off-pipeline 'Baghdad Battery' post ('Was this 2,000-year-old jar a battery?') published today across all 4 networks (tiktok 18:00, facebook 12:00, youtube 16:00, instagram 19:00) - 14 days earlier than content_plan row id=19 (dated 2026-11-20) and worded differently; this continues using Instagram, now a 5th-6th confirmed violation of the standing ROUTINE_PROMPT.md rule to exclude Instagram pending the owner's decision. The duplicate-Voynich conflict for 2026-11-07 ('No one on Earth can read this book', vs content_plan's Emu War) is still PENDING and unresolved. A new off-pipeline 'Roman concrete gets stronger in seawater' post is now PENDING for 2026-11-08 across tiktok/facebook/youtube/instagram - different wording/date from content_plan row id=7 (Roman concrete, originally dated 2026-11-03, still never produced - no episodes/ep07.json or videos/ep07.mp4). Growth: tiktok_followers flat at 3 and facebook_followers flat at 3 for 13 straight confirmed days (since 2026-10-25), youtube_subscribers flat at 5 confirmed through 2026-11-03 (lag; last movement was 2026-10-31); TikTok newFollowers=0 and Facebook followersAcquired=0 every single day 2026-11-01 through 2026-11-05. Views rose with ep08/Greek-fire activity (tiktok views 258->512, facebook reel views 197->365 from 11-04 to 11-05) but produced zero net follower conversion on any platform.",
+    "tiktok_followers": 3,
+    "youtube_subscribers": 5,
+    "facebook_followers": 3,
+    "tiktok_views": 512,
+    "tiktok_likes": 1,
+    "youtube_views": 62,
+    "facebook_reels_views": 365,
+    "facebook_reels_likes": 3,
+    "data_as_of": "2026-11-05 (tiktok/facebook); 2026-11-03 (youtube, lagging)",
+    "deadline_window_started": "2026-10-28",
+    "deadline_window_ended": "2026-11-01",
+    "deadline_days_remaining": 0,
+    "deadline_status": "EXPIRED",
+    "days_past_deadline": 5
   }
 ]
