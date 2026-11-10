@@ -222,5 +222,26 @@
     "deadline_days_remaining": 0,
     "deadline_status": "EXPIRED",
     "days_past_deadline": 5
+  },
+  {
+    "date": "2026-11-10",
+    "note": "day-24/post-deadline-day-9: LOGGING GAP - this growth-monitoring routine produced zero entries and zero git commits for 2026-11-07, 11-08 and 11-09 (last commit before this one was 2026-11-06 21:07 UTC) - the monitoring task itself went silent for 3 days, not just the content pipeline. Backfilling with confirmed Metricool analytics for the missed days. Separately, the documented content_plan.json/episodes/videos pipeline in this repo is now fully abandoned: zero commits since 2026-11-06, ep09 (Mary Celeste), ep10 (Emu War) and ep22 (Berlin Wall anniversary, due 2026-11-09) were never produced. All actual publishing from 2026-11-08 through the confirmed-scheduled 2026-11-11 is coming from a separate, undocumented batch created in Metricool on 2026-11-03/04 (4 posts/day, tiktok+facebook+youtube+instagram), on topics not in content_plan.json at all (oldest sky map/Nebra disc, Terracotta Army 'clay soldiers', Ulfberht Viking swords) or reworded duplicates of it (Roman concrete). Instagram is now included on literally every post in this batch (11-08, 11-09, 11-10, 11-11 pending) - this is no longer an occasional violation of the ROUTINE_PROMPT.md exclusion rule, it is now the default. Today's actual publish (2026-11-10, 'Farmers digging a well found an army of 8,000 clay soldiers') did publish successfully on all 4 networks per Metricool and the hook itself is reasonably strong (concrete number, curiosity-driven) but it is untracked in the repo and violates the Instagram rule. GROWTH: first real follower movement since the channel started - tiktok_followers rose 3->5 between 11-06 and 11-08 (confirmed, after 13 days flat), youtube_subscribers rose 5->9 between 11-07 and 11-09 (confirmed, after being flat since 11-02); facebook_followers remains flat at 3 for 16 straight confirmed days (since 2026-10-25, zero net change); instagram_followers flat at 2 since the network was connected. 2026-11-10 itself has no confirmed analytics yet (same-day lag).",
+    "tiktok_followers": 5,
+    "youtube_subscribers": 9,
+    "facebook_followers": 3,
+    "instagram_followers": null,
+    "tiktok_views": 630,
+    "tiktok_likes": 6,
+    "youtube_views": null,
+    "facebook_reels_views": 208,
+    "facebook_reels_likes": 2,
+    "instagram_reels_views": 43,
+    "instagram_reels_likes": null,
+    "data_as_of": "2026-11-09 (tiktok/facebook/instagram); youtube subscribers confirmed through 2026-11-09 too",
+    "deadline_window_started": "2026-10-28",
+    "deadline_window_ended": "2026-11-01",
+    "deadline_days_remaining": 0,
+    "deadline_status": "EXPIRED",
+    "days_past_deadline": 9
   }
 ]
