@@ -20,10 +20,12 @@ All 9 scenes now have a finished reference image. Narration (ElevenLabs, all 9 s
 
 Video/motion status per scene, after the frame-extraction breakthrough (see Notes below):
 - DONE (image + real extracted motion clip): Scene 3/Challenge (lab), Scene 4/Breakthrough (chemist), Scene 1b (wheat field), Scene 2/Problem (guano port), Scene 6/Turn (munitions factory), Scene 7/Moral Shadow (Ypres gas).
-- PENDING, blocked by Gemini daily video quota (hit twice this session; last cap message says it resets ~18:26 on 2026-11-12): Scene 1a (industrial opening HOOK — also failed 3 times on generic errors even without the reference image attached, likely quota-related throttling rather than a content block), Scene 8/Legacy (farmland aerial).
+- PENDING, blocked by Gemini daily video quota (hit twice this session; last cap message says it resets ~18:26 on 2026-11-12): Scene 1a (industrial opening HOOK — also failed 3 times on generic errors even without the reference image attached, likely quota-related throttling rather than a content block), Scene 5/Scaling Up (BASF factory interior — image done, video generation not yet attempted this session), Scene 8/Legacy (farmland aerial).
 - Scene 9/Ending uses existing brand assets directly, no AI video needed.
 
-Per the standing production directive: not purchasing extra credits/quota. Will retry Scene 1a and Scene 8 video generation once the quota window resets, then extract their frames the same way.
+All narration (9 scenes) and all music/SFX (4 instrumental cues + 3 SFX beds) are now downloaded into the sandbox — see narration_log.md and music_sfx_log.md. Only the 3 video clips above remain before final assembly.
+
+Per the standing production directive: not purchasing extra credits/quota. Will retry Scene 1a, Scene 5, and Scene 8 video generation once the quota window resets, then extract their frames the same way, then proceed straight to final cinematic assembly.
 
 ## Notes
 - Scene 3 (Fritz Haber) video generation blocked by Gemini policy on named public figures. Retry plan: describe as "a German chemist in his forties, receding hairline, round glasses, neat mustache" without using the name "Fritz Haber" in the video prompt text (image reference still carries the likeness). Narration audio will still say his name — only the on-screen reenactment avoids naming him in the generation prompt.
