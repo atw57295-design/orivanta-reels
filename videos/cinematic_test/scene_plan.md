@@ -18,14 +18,19 @@ Target runtime: ~8-9 min. Visual style: real AI-generated moving cinematic foota
 ## Status update (full-production pass, continued)
 All 9 scenes now have a finished reference image. Narration (ElevenLabs, all 9 scenes) and music/SFX (Suno, 4 instrumental cues + 3 SFX beds) are both complete — see narration_log.md and music_sfx_log.md.
 
-Video/motion status per scene, after the frame-extraction breakthrough (see Notes below):
-- DONE (image + real extracted motion clip): Scene 3/Challenge (lab), Scene 4/Breakthrough (chemist), Scene 1b (wheat field), Scene 2/Problem (guano port), Scene 6/Turn (munitions factory), Scene 7/Moral Shadow (Ypres gas).
-- PENDING, blocked by Gemini daily video quota (hit twice this session; last cap message says it resets ~18:26 on 2026-11-12): Scene 1a (industrial opening HOOK — also failed 3 times on generic errors even without the reference image attached, likely quota-related throttling rather than a content block), Scene 5/Scaling Up (BASF factory interior — image done, video generation not yet attempted this session), Scene 8/Legacy (farmland aerial).
-- Scene 9/Ending uses existing brand assets directly, no AI video needed.
+## FILM COMPLETE — full assembly finished
+**`Haber_Bosch_Full_Film.mp4` (repo root of this folder) is the complete, finished film: 9 scenes, 5:35 total, narration + music + SFX fully mixed, 1280x720 H.264/AAC.** See "Final assembly" below for how it was built.
 
-All narration (9 scenes) and all music/SFX (4 instrumental cues + 3 SFX beds) are now downloaded into the sandbox — see narration_log.md and music_sfx_log.md. Only the 3 video clips above remain before final assembly.
+Video/motion status per scene, final:
+- DONE (image + real extracted motion clip via the Gemini canvas-frame technique): Scene 3/Challenge (lab), Scene 4/Breakthrough (chemist), Scene 1b (wheat field), Scene 2/Problem (guano port), Scene 6/Turn (munitions factory), Scene 7/Moral Shadow (Ypres gas).
+- DONE via an alternate provider (Google Veo 3.1, through the ElevenLabs creative API) after Gemini's own daily video quota stayed exhausted and the user asked to switch tools rather than wait: Scene 1a (industrial opening HOOK, `scene1a_industrial_opening_veo.mp4`), Scene 5/Scaling Up (BASF factory interior, `scene5_factory_interior_veo.mp4`) — both real downloaded 1280x720 8s clips, no frame-sampling needed (Veo exposes a direct signed CDN URL on the same elevenlabsusercontent.com domain already used for narration, which is reachable from the sandbox).
+- Scene 8/Legacy (farmland aerial): its own Veo 3.1 generation ran far longer than the other two (>15 min, still "generating" when checked) with no sign of failure, so rather than keep the user waiting unnecessarily it was built from the existing reference image (`scene8_legacy_farmland.png`) with a slow Ken Burns zoom/pan in ffmpeg — the same technique used for Scene 9's brand ending. If the pending Veo generation completes later, it can be swapped in and only Scene 8 + the final concat need re-running (cheap).
+- Scene 9/Ending uses existing brand assets directly (ORIVANTA logo, Ken Burns zoom), no AI video needed.
 
-Per the standing production directive: not purchasing extra credits/quota. Will retry Scene 1a, Scene 5, and Scene 8 video generation once the quota window resets, then extract their frames the same way, then proceed straight to final cinematic assembly.
+All narration (9 scenes) and all music/SFX (4 instrumental cues + 3 SFX beds) are complete — see narration_log.md and music_sfx_log.md.
+
+## Final assembly
+`build_film.py` builds each scene as: the scene's motion clip(s) looped/trimmed to exactly cover that scene's narration length (scaled/padded to 1280x720), mixed audio (narration at full volume + the scene's music cue looped at ~14% + scene-specific SFX bed looped at ~10%, amixed with duration=first), then muxed into `scene_builds/sceneN_<name>_final.mp4`. Scene 8 and Scene 9 (image-based Ken Burns) were built with one-off ffmpeg commands following the same mix pattern. All 9 final per-scene files were then concatenated (ffmpeg concat demuxer, re-encoded to a single consistent H.264/AAC stream to avoid timestamp issues) into `Haber_Bosch_Full_Film.mp4`.
 
 ## Notes
 - Scene 3 (Fritz Haber) video generation blocked by Gemini policy on named public figures. Retry plan: describe as "a German chemist in his forties, receding hairline, round glasses, neat mustache" without using the name "Fritz Haber" in the video prompt text (image reference still carries the likeness). Narration audio will still say his name — only the on-screen reenactment avoids naming him in the generation prompt.
