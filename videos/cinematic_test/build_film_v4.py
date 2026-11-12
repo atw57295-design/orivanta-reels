@@ -70,7 +70,10 @@ SCENES = {
     4: {"clips": ["scene4_breakthrough_kling.mp4"],
         "music": "music_sfx_audio/music_breakthrough_cue.wav", "sfx": None,
         "emphasis": [(12.102, 14.239, "THE BREAKTHROUGH")], "insert": None},
-    5: {"clips": ["scene5_factory_interior_veo.mp4"],
+    5: {"clips": ["scene5_clip1_aerial.mp4", "scene5_factory_interior_veo.mp4",
+                  "scene5_clip2_interior.mp4", "scene5_clip4_gauge.mp4",
+                  "scene5_clip3_loading.mp4", "scene5_clip5_dusk.mp4"],
+        "clips_after": [],
         "music": "music_sfx_audio/music_breakthrough_cue.wav",
         "sfx": "music_sfx_audio/sfx_factory_ambience_1913.wav",
         "emphasis": [(50.259, 52.717, "A RAW MATERIAL")],
@@ -79,7 +82,8 @@ SCENES = {
         "music": "music_sfx_audio/music_moral_shadow_cue.wav",
         "sfx": "music_sfx_audio/sfx_factory_ambience_1913.wav",
         "emphasis": [(12.210, 15.867, "EXPLOSIVES")], "insert": None},
-    7: {"clips": ["scene7_ypres_kling.mp4"],
+    7: {"clips": ["scene7_clip1_trench.mp4", "scene7_clip2_gascloud.mp4"],
+        "clips_after": ["scene7_clip3_gasmasks.mp4", "scene7_ypres_kling.mp4"],
         "music": "music_sfx_audio/music_moral_shadow_cue.wav",
         "sfx": "music_sfx_audio/sfx_wwi_trench_ambience.wav",
         "emphasis": [(6.937, 12.303, "CHEMICAL WEAPONS")],
@@ -146,11 +150,27 @@ def build_scene_video_v4(scene_id, cfg, target_dur):
         concat_segments(segments, out)
         return out
 
-    # scenes 2-8: single clip (+ optional card after it)
-    clip = clips[0]
-    v_d = dur(clip)
-    p0 = f"{BUILD}/s{scene_id}_v0.mp4"; video_forward_clip(clip, p0)
-    segments.append(p0)
+    # scenes 2-8: one or more real clips in sequence, optionally capped to fit
+    # before an info-card insert (trimming the last clip if the real footage
+    # runs long, rather than letting it push the card out of narration sync),
+    # plus an optional second real-clip group that plays after the card.
+    cap = insert[0] if insert else target_dur
+    segments = []
+    v_d = 0.0
+    for ci, clip in enumerate(clips):
+        cdur = dur(clip)
+        remaining_cap = cap - v_d
+        if remaining_cap <= 0.2:
+            break
+        p = f"{BUILD}/s{scene_id}_v{ci}.mp4"
+        if cdur <= remaining_cap + 0.05:
+            video_forward_clip(clip, p)
+            v_d += cdur
+        else:
+            run(["ffmpeg", "-y", "-i", clip, "-t", f"{remaining_cap:.3f}",
+                 "-vf", f"scale={W}:{H},format=yuv420p", "-r", "30", "-an", p])
+            v_d += remaining_cap
+        segments.append(p)
 
     def add_fill(fill_dur, nonlocal_preset):
         if fill_dur <= 0.2:
@@ -174,7 +194,26 @@ def build_scene_video_v4(scene_id, cfg, target_dur):
              "-vf", f"fade=t=in:st=0:d=0.35,fade=t=out:st={ins_dur-0.4:.3f}:d=0.4,format=yuv420p",
              "-r", "30", card_clip])
         segments.append(card_clip)
-        fill_after = target_dur - ins_start - ins_dur
+
+        after_clips = cfg.get("clips_after") or []
+        after_cap = target_dur - ins_start - ins_dur
+        a_d = 0.0
+        for ci, clip in enumerate(after_clips):
+            cdur = dur(clip)
+            remaining_cap = after_cap - a_d
+            if remaining_cap <= 0.2:
+                break
+            p = f"{BUILD}/s{scene_id}_a{ci}.mp4"
+            if cdur <= remaining_cap + 0.05:
+                video_forward_clip(clip, p)
+                a_d += cdur
+            else:
+                run(["ffmpeg", "-y", "-i", clip, "-t", f"{remaining_cap:.3f}",
+                     "-vf", f"scale={W}:{H},format=yuv420p", "-r", "30", "-an", p])
+                a_d += remaining_cap
+            segments.append(p)
+
+        fill_after = after_cap - a_d
         preset_i = add_fill(fill_after, preset_i)
     else:
         fill_after = target_dur - v_d
