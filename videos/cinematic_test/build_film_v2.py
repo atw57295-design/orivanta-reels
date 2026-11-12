@@ -15,6 +15,7 @@ os.makedirs(BUILD, exist_ok=True)
 
 W, H = 1280, 720
 WATERMARK = "brand_cards/watermark_small.png"
+INFO_CARDS = "brand_cards/info"
 
 def run(cmd):
     r = subprocess.run(cmd, capture_output=True, text=True)
@@ -40,48 +41,56 @@ SCENES = {
         "music": "music_sfx_audio/music_first_signal_cue.wav",
         "sfx": None,
         "emphasis": [(9.829, 11.296, "A FACTORY")],
+        "insert": None,
     },
     2: {
         "clips": ["scene2_guano_port_veo.mp4"],
         "music": "music_sfx_audio/music_first_signal_cue.wav",
         "sfx": None,
         "emphasis": [(20.375, 23.858, "A WAR")],
+        "insert": (23.9, 4.0, f"{INFO_CARDS}/card_war_of_pacific.png"),
     },
     3: {
         "clips": ["scene3_lab_kling.mp4"],
         "music": "music_sfx_audio/music_first_signal_cue.wav",
         "sfx": "music_sfx_audio/sfx_laboratory_ambience.wav",
         "emphasis": [(14.279, 15.279, "...AND FAILED.")],
+        "insert": (20.6, 5.3, f"{INFO_CARDS}/card_haber_equation.png"),
     },
     4: {
         "clips": ["scene4_breakthrough_kling.mp4"],
         "music": "music_sfx_audio/music_breakthrough_cue.wav",
         "sfx": None,
         "emphasis": [(12.102, 14.239, "THE BREAKTHROUGH")],
+        "insert": None,
     },
     5: {
         "clips": ["scene5_factory_interior_veo.mp4"],
         "music": "music_sfx_audio/music_breakthrough_cue.wav",
         "sfx": "music_sfx_audio/sfx_factory_ambience_1913.wav",
         "emphasis": [(50.259, 52.717, "A RAW MATERIAL")],
+        "insert": (44.8, 5.0, f"{INFO_CARDS}/card_oppau.png"),
     },
     6: {
         "clips": ["scene6_munitions_kling.mp4"],
         "music": "music_sfx_audio/music_moral_shadow_cue.wav",
         "sfx": "music_sfx_audio/sfx_factory_ambience_1913.wav",
         "emphasis": [(12.210, 15.867, "EXPLOSIVES")],
+        "insert": None,
     },
     7: {
         "clips": ["scene7_ypres_kling.mp4"],
         "music": "music_sfx_audio/music_moral_shadow_cue.wav",
         "sfx": "music_sfx_audio/sfx_wwi_trench_ambience.wav",
         "emphasis": [(6.937, 12.303, "CHEMICAL WEAPONS")],
+        "insert": (3.9, 4.0, f"{INFO_CARDS}/card_ypres.png"),
     },
     8: {
         "clips": ["scene8_legacy_farmland_veo.mp4"],
         "music": "music_sfx_audio/music_legacy_cue.wav",
         "sfx": None,
         "emphasis": [(11.921, 15.622, "HALF OF YOU")],
+        "insert": None,
     },
 }
 
@@ -127,12 +136,42 @@ def build_scene_video(scene_id, clips, target_dur):
          "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "30", out])
     return out
 
+def splice_info_card(scene_id, video, target_dur, insert_cfg):
+    """Cut away from the looping scene footage to a brief documentary-style
+    info card (map / date / diagram), then back -- narration keeps playing
+    underneath unaffected since only the visual track is spliced."""
+    start, ins_dur, card_png = insert_cfg
+    end = start + ins_dur
+    before = f"{BUILD}/scene{scene_id}_pre.mp4"
+    after = f"{BUILD}/scene{scene_id}_post.mp4"
+    card_clip = f"{BUILD}/scene{scene_id}_card.mp4"
+
+    run(["ffmpeg", "-y", "-i", video, "-t", f"{start:.3f}",
+         "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "30", before])
+    run(["ffmpeg", "-y", "-ss", f"{end:.3f}", "-i", video,
+         "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "30", after])
+    run(["ffmpeg", "-y", "-loop", "1", "-i", card_png, "-t", f"{ins_dur:.3f}",
+         "-vf", f"fade=t=in:st=0:d=0.35,fade=t=out:st={ins_dur-0.4:.3f}:d=0.4,format=yuv420p",
+         "-r", "30", card_clip])
+
+    concat_txt = f"{BUILD}/scene{scene_id}_splice.txt"
+    with open(concat_txt, "w") as f:
+        for p in [before, card_clip, after]:
+            f.write(f"file '{os.path.abspath(p)}'\n")
+    spliced = f"{BUILD}/scene{scene_id}_spliced.mp4"
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", concat_txt,
+         "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "30", spliced])
+    return spliced
+
 def build_scene(scene_id, cfg):
     narration = f"narration_audio/scene{scene_id}_narration.mp3"
     target_dur = dur(narration)
     print(f"-- scene {scene_id}: target {target_dur:.2f}s")
 
     video = build_scene_video(scene_id, cfg["clips"], target_dur)
+    if cfg.get("insert"):
+        video = splice_info_card(scene_id, video, target_dur, cfg["insert"])
+        print(f"   spliced info card at {cfg['insert'][0]}s")
 
     # --- subtitles + emphasis text + watermark, all in one filter pass ---
     srt_path = os.path.abspath(f"subtitles/scene{scene_id}.srt")

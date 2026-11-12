@@ -29,7 +29,7 @@ def main():
     cx = W // 2
 
     # --- Small ORIVANTA circle logo up top, uncropped/undistorted ---
-    logo = Image.open("/home/claude/orivanta_work/brand/orivanta_logo_watermark.png").convert("RGBA")
+    logo = Image.open("/home/claude/orivanta_work/brand/v2/orivanta_watermark_small.png").convert("RGBA")
     logo_h = 96
     scale = logo_h / logo.height
     logo_w = int(logo.width * scale)
