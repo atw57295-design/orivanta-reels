@@ -5,3 +5,4 @@ videos/cinematic_test/scene_builds/s[0-9]*_video.mp4
 videos/cinematic_test/scene_builds/s[0-9]*_audio.m4a
 videos/cinematic_test/scene_builds/s[0-9]*_part*.mp4
 videos/cinematic_test/scene_builds/s[0-9]*_concat*
+videos/cinematic_test/scene_builds_v4/
