@@ -80,7 +80,7 @@ SCENES = {
         "emphasis": [(50.259, 52.717, "A RAW MATERIAL")],
         "insert": (44.8, 5.0, f"{INFO_CARDS}/card_oppau.png")},
     6: {"clips": ["scene6_munitions_kling.mp4", "scene6_clip_shellfactory.mp4",
-                  "scene6_clip_stamping.mp4"],
+                  "scene6_clip_stamping_trimmed.mp4", "scene6_clip_crates_trimmed.mp4"],
         "music": "music_sfx_audio/music_moral_shadow_cue.wav",
         "sfx": "music_sfx_audio/sfx_factory_ambience_1913.wav",
         "emphasis": [(12.210, 15.867, "EXPLOSIVES")], "insert": None},
