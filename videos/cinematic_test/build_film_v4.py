@@ -58,7 +58,7 @@ SCENES = {
     1: {"clips": ["scene1a_industrial_opening_veo.mp4", "scene1b_wheat_kling.mp4"],
         "music": "music_sfx_audio/music_first_signal_cue.wav", "sfx": None,
         "emphasis": [(9.829, 11.296, "A FACTORY")], "insert": None},
-    2: {"clips": ["scene2_guano_port_veo.mp4"],
+    2: {"clips": ["scene2_guano_port_veo.mp4", "scene2_clip_crane_trimmed.mp4"],
         "music": "music_sfx_audio/music_first_signal_cue.wav", "sfx": None,
         "emphasis": [(20.375, 23.858, "A WAR")],
         "insert": (23.9, 4.0, f"{INFO_CARDS}/card_war_of_pacific.png")},
