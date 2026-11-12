@@ -34,14 +34,14 @@ W, H = v2.W, v2.H
 INFO_CARDS = v2.INFO_CARDS
 
 STILLS = {
-    1: ["scene1_industrial_opening.png", "scene1b_wheat_field.png"],
-    2: ["scene2_guano_port.png"],
-    3: ["scene2_laboratory.png"],
+    1: ["scene1_industrial_opening_clean.png", "scene1b_wheat_field_clean.png"],
+    2: ["scene2_guano_port_clean.png"],
+    3: ["scene2_laboratory_clean.png"],
     4: ["scene3_fritz_haber.png"],
-    5: ["scene5_factory_interior.png"],
+    5: ["scene5_factory_interior_clean.png"],
     6: ["scene6_munitions_factory_clean.png"],
-    7: ["scene7_ypres_gas_attack.png"],
-    8: ["scene8_legacy_farmland.png"],
+    7: ["scene7_ypres_gas_attack_clean.png"],
+    8: ["scene8_legacy_farmland_clean.png"],
 }
 
 PRESETS = [
