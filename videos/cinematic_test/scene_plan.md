@@ -10,13 +10,20 @@ Target runtime: ~8-9 min. Visual style: real AI-generated moving cinematic foota
 | 3 | THE CHALLENGE | 1:30-3:00 | 1905 German chemistry lab, Fritz Haber + assistant at small apparatus | image+video DONE (scene2_laboratory, scene2_motion_proof) — reuse as this beat's footage |
 | 4 | THE BREAKTHROUGH | 3:00-4:30 | Close-up hands assembling/operating the 200-atm high-pressure apparatus (Le Rossignol), gauges, valves | image DONE (scene3_fritz_haber — reframe as generic "German chemist" for video per policy workaround), video pending retry without named figure |
 | 5 | SCALING UP | 4:30-6:00 | BASF Oppau factory 1913, exterior wide shots, workers, steel vessels, steam | reuse scene1_industrial_opening as base; need additional interior/worker shots |
-| 6 | THE TURN | 6:00-7:00 | Factory switching to munitions, shells on production line, WWI context (restrained) | image DONE (scene6_munitions_factory.png), video pending (Gemini daily quota) |
-| 7 | MORAL SHADOW | 7:00-8:00 | Ypres 1915, gas cloud drifting over trenches, distant/symbolic framing, no graphic victims | image DONE (scene7_ypres_gas_attack.png), video pending (Gemini daily quota) |
-| 8 | LEGACY | 8:00-8:45 | Modern fertilizer plant / farmland aerial — echoes hook visual | image DONE (scene8_legacy_farmland.png), video pending (Gemini daily quota) |
+| 6 | THE TURN | 6:00-7:00 | Factory switching to munitions, shells on production line, WWI context (restrained) | DONE — image + motion clip (scene6_munitions_factory_motion.mp4) |
+| 7 | MORAL SHADOW | 7:00-8:00 | Ypres 1915, gas cloud drifting over trenches, distant/symbolic framing, no graphic victims | DONE — image + motion clip (scene7_ypres_gas_attack_motion.mp4) |
+| 8 | LEGACY | 8:00-8:45 | Modern fertilizer plant / farmland aerial — echoes hook visual | image DONE, video generation hit Gemini's daily cap again right after Scene 7 succeeded (cap message: resets ~18:26 on 2026-11-12) — will retry after reset |
 | 9 | ENDING/CTA | 8:45-9:00 | ORIVANTA logo animation, final title card | using existing brand assets (brand/orivanta_logo_full.jpg, orivanta_logo_circle.png, orivanta_logo_watermark.png) — built directly in final edit via ffmpeg motion graphics, no AI generation needed |
 
 ## Status update (full-production pass, continued)
-All 9 scenes now have a finished reference image. Video generation for Scenes 1a, 2, 6, 7, 8 is blocked by Gemini's daily video-generation quota (reached mid-session) — will resume once it resets. Scenes "Challenge" (2 orig numbering / Scene 3 here), "Breakthrough" (4), and "Hook-b/wheat field" (1b) already have both image + Gemini-generated motion-proof video. Narration (ElevenLabs, all 9 scenes) and music/SFX (Suno, 4 instrumental cues + 3 SFX beds) are both complete — see narration_log.md and music_sfx_log.md.
+All 9 scenes now have a finished reference image. Narration (ElevenLabs, all 9 scenes) and music/SFX (Suno, 4 instrumental cues + 3 SFX beds) are both complete — see narration_log.md and music_sfx_log.md.
+
+Video/motion status per scene, after the frame-extraction breakthrough (see Notes below):
+- DONE (image + real extracted motion clip): Scene 3/Challenge (lab), Scene 4/Breakthrough (chemist), Scene 1b (wheat field), Scene 2/Problem (guano port), Scene 6/Turn (munitions factory), Scene 7/Moral Shadow (Ypres gas).
+- PENDING, blocked by Gemini daily video quota (hit twice this session; last cap message says it resets ~18:26 on 2026-11-12): Scene 1a (industrial opening HOOK — also failed 3 times on generic errors even without the reference image attached, likely quota-related throttling rather than a content block), Scene 8/Legacy (farmland aerial).
+- Scene 9/Ending uses existing brand assets directly, no AI video needed.
+
+Per the standing production directive: not purchasing extra credits/quota. Will retry Scene 1a and Scene 8 video generation once the quota window resets, then extract their frames the same way.
 
 ## Notes
 - Scene 3 (Fritz Haber) video generation blocked by Gemini policy on named public figures. Retry plan: describe as "a German chemist in his forties, receding hairline, round glasses, neat mustache" without using the name "Fritz Haber" in the video prompt text (image reference still carries the likeness). Narration audio will still say his name — only the on-screen reenactment avoids naming him in the generation prompt.
