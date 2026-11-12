@@ -16,5 +16,10 @@ Generated on the user's Suno account (same account already used for prior ORIVAN
 3. **Factory ambience, 1913** (Scenes "Scaling Up" / "The Turn" — BASF Oppau): deep rhythmic machinery thrum, steam venting, metal clanging, pressure-vessel hum, muffled workers' voices.
 
 ## Next steps
-- Pick the best take of each cue/SFX bed in Suno, download the audio (Suno allows direct MP3/WAV download from the song page — no cross-boundary extraction issue like Gemini video), and bring the files into the sandbox for the final mix.
+- Pick the best take of each cue/SFX bed in Suno and bring the audio into the sandbox for the final mix.
 - Rename the garbled "Moral Shadow" track title on the Suno side for clarity (cosmetic only, does not affect the audio).
+
+## Audio-extraction note (this session)
+Unlike ElevenLabs (whose generations have a direct signed CDN URL retrievable via `creative_get_generations`, so narration was downloaded cleanly with plain `curl`), Suno's audio plays from a page-created `blob:` URL that a content-script `fetch()`/`XMLHttpRequest` cannot resolve (isolated-world restriction), and Suno's real CDN URL (cloudfront) is outside the sandbox's network allowlist, so plain `curl` fails too.
+A real-time capture workaround was prototyped and works in principle: connect the page's `<audio>` element to a Web Audio `ScriptProcessorNode`, record raw PCM while the track plays, downsample or encode to WAV, and export via chunked Base64 through the browser console (the same relay method used for the Gemini video frames). A first attempt produced a WAV, but Suno's player auto-advanced to the next queued track partway through the capture, so the result mixed two songs together and was discarded rather than used.
+This path is viable but needs the player's autoplay/queue-advance disabled (or the capture loop capped strictly to one track's real duration) before it's used for real — not yet done. Narration audio did not need this workaround and is already fully downloaded (see narration_audio/ and narration_log.md). Music/SFX download remains the next step before final mixing.
