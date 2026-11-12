@@ -1,0 +1,32 @@
+1
+00:00:00,150 --> 00:00:01,150
+One invention.
+
+2
+00:00:01,150 --> 00:00:02,150
+Three men.
+
+3
+00:00:02,150 --> 00:00:04,819
+A harvest that shouldn't have been possible,
+
+4
+00:00:04,819 --> 00:00:08,458
+and a battlefield that shouldn't have been possible either —
+
+5
+00:00:08,458 --> 00:00:10,398
+both made by the same discovery.
+
+6
+00:00:10,398 --> 00:00:14,401
+The question it leaves behind isn't really about chemistry at all:
+
+7
+00:00:14,401 --> 00:00:17,191
+can we ever separate what an invention is for,
+
+8
+00:00:17,191 --> 00:00:19,019
+from what it's eventually used for?
+

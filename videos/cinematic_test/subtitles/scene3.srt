@@ -1,0 +1,56 @@
+1
+00:00:00,150 --> 00:00:02,198
+Nitrogen gas is almost inert —
+
+2
+00:00:02,198 --> 00:00:06,839
+its two atoms are bound so tightly that under normal lab conditions,
+
+3
+00:00:06,839 --> 00:00:09,910
+they simply refuse to separate and recombine.
+
+4
+00:00:09,910 --> 00:00:14,279
+Chemist after chemist across Europe tried to force the reaction,
+
+5
+00:00:14,279 --> 00:00:15,279
+and failed.
+
+6
+00:00:15,279 --> 00:00:16,279
+In Germany,
+
+7
+00:00:16,279 --> 00:00:20,647
+a professor named Fritz Haber decided to attack it head-on: take
+
+8
+00:00:20,647 --> 00:00:22,421
+nitrogen and hydrogen gas,
+
+9
+00:00:22,421 --> 00:00:25,971
+add heat and pressure, and force them into ammonia —
+
+10
+00:00:25,971 --> 00:00:28,564
+a compound plants can actually absorb.
+
+11
+00:00:28,564 --> 00:00:31,977
+In 1905, working at roughly 1,000 degrees Celsius,
+
+12
+00:00:31,977 --> 00:00:36,209
+Haber coaxed out a conversion rate of only about five percent.
+
+13
+00:00:36,209 --> 00:00:37,301
+It was progress.
+
+14
+00:00:37,301 --> 00:00:39,578
+It was nowhere near enough to matter.
+

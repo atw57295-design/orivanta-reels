@@ -1,0 +1,36 @@
+1
+00:00:00,150 --> 00:00:04,276
+More than a century later, the Haber-Bosch process is still running,
+
+2
+00:00:04,276 --> 00:00:08,038
+almost unchanged in principle, in factories across the planet.
+
+3
+00:00:08,038 --> 00:00:11,921
+Scientists estimate that roughly half of the nitrogen atoms in a
+
+4
+00:00:11,921 --> 00:00:15,622
+human body today trace back to this one industrial reaction —
+
+5
+00:00:15,622 --> 00:00:20,111
+a figure from historian Thomas Hager's research, not a direct measurement,
+
+6
+00:00:20,111 --> 00:00:24,055
+but a sign of how deeply this invention is woven into who we are.
+
+7
+00:00:24,055 --> 00:00:25,055
+Without it,
+
+8
+00:00:25,055 --> 00:00:28,938
+researchers estimate the world could grow only a fraction of the
+
+9
+00:00:28,938 --> 00:00:30,069
+food it grows today.
+

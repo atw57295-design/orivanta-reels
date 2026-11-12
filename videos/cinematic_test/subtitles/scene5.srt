@@ -1,0 +1,64 @@
+1
+00:00:00,150 --> 00:00:03,817
+Turning a lab bench into an industry fell to a different
+
+2
+00:00:03,817 --> 00:00:05,454
+man entirely: Carl Bosch,
+
+3
+00:00:05,454 --> 00:00:08,597
+an engineer at the German chemical company BASF.
+
+4
+00:00:08,597 --> 00:00:10,954
+Bosch didn't discover the reaction —
+
+5
+00:00:10,954 --> 00:00:14,031
+he had to make it survive contact with reality.
+
+6
+00:00:14,031 --> 00:00:16,847
+He needed cheap hydrogen at massive volume.
+
+7
+00:00:16,847 --> 00:00:20,317
+He needed a catalyst that wouldn't fail within hours,
+
+8
+00:00:20,317 --> 00:00:24,050
+since Haber's rare osmium and uranium could never scale —
+
+9
+00:00:24,050 --> 00:00:28,633
+a search that took his colleague Alwin Mittasch roughly 2,000 separate
+
+10
+00:00:28,633 --> 00:00:31,514
+experiments before they landed on a cheaper,
+
+11
+00:00:31,514 --> 00:00:32,824
+iron-based catalyst.
+
+12
+00:00:32,824 --> 00:00:37,997
+And he needed steel vessels that could hold extreme pressure without cracking —
+
+13
+00:00:37,997 --> 00:00:44,806
+an early problem that destroyed equipment through hydrogen embrittlement before his engineers solved it.
+
+14
+00:00:44,806 --> 00:00:49,259
+In 1913, the world's first full-scale ammonia plant opened at Oppau,
+
+15
+00:00:49,259 --> 00:00:50,259
+Germany.
+
+16
+00:00:50,259 --> 00:00:52,717
+The air itself had become a raw material.
+
