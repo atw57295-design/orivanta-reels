@@ -1,2 +1,0 @@
-file '/home/claude/orivanta_work/videos/cinematic_test/scene_builds_v2/scene1_loop0.mp4'
-file '/home/claude/orivanta_work/videos/cinematic_test/scene_builds_v2/scene1_loop1.mp4'
