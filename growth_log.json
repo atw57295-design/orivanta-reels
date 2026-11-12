@@ -243,5 +243,26 @@
     "deadline_days_remaining": 0,
     "deadline_status": "EXPIRED",
     "days_past_deadline": 9
+  },
+  {
+    "date": "2026-11-12",
+    "note": "day-26/post-deadline-day-11: publishing itself is healthy - yesterday (2026-11-11, 'Viking swords/Ulfberht') and today (2026-11-12, 'Phaistos Disc') both confirmed PUBLISHED on all 4 networks (tiktok, facebook, youtube, instagram) per Metricool; tomorrow (Nazca Lines) and 2026-11-14 (Library of Alexandria) are correctly PENDING and already scheduled 18:00 Asia/Damascus - no stuck/failed posts found. BUT this remains entirely the undocumented off-pipeline batch (created 2026-11-03/04): content_plan.json/episodes/videos pipeline described in ROUTINE_PROMPT.md is still fully dead (zero commits touching episodes/ or videos/epNN.mp4 since 2026-11-06; today's row id=13 'Napoleon's height' still status 'script being written'). All of today's actual repo commits (6 commits, 21:02-22:01 UTC+3) were spent entirely on an unrelated side project - a long-form 'Haber Bosch' cinematic documentary film (scene_builds_v4, Gemini/Google Flow clip extraction) - not on this channel's growth routine or content_plan pipeline at all. Instagram remains on every post by default now (continuing standing violation of the exclusion rule, unresolved since first flagged 2026-11-03). GROWTH (real movement, best since launch): facebook_followers finally moved 3->5 between 2026-11-10 and 2026-11-11 (first change after 17 days flat since 2026-10-25); youtube_subscribers jumped 9->17 between 2026-11-09 and 2026-11-11 (+8, strongest single jump yet); tiktok_followers flat at 5 since 2026-11-08 (4 days); instagram_followers flat at 2 since the network connected. Metricool analytics still lag ~1 day - no confirmed reading yet for 2026-11-12 itself.",
+    "tiktok_followers": 5,
+    "youtube_subscribers": 17,
+    "facebook_followers": 5,
+    "instagram_followers": 2,
+    "tiktok_views": 661,
+    "tiktok_likes": 2,
+    "youtube_views": null,
+    "facebook_reels_views": 237,
+    "facebook_reels_likes": 4,
+    "instagram_reels_views": 4,
+    "instagram_reels_likes": null,
+    "data_as_of": "2026-11-11 (confirmed); no reading yet for 2026-11-12 itself (analytics lag)",
+    "deadline_window_started": "2026-10-28",
+    "deadline_window_ended": "2026-11-01",
+    "deadline_days_remaining": 0,
+    "deadline_status": "EXPIRED",
+    "days_past_deadline": 11
   }
 ]
