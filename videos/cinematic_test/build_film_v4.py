@@ -90,7 +90,7 @@ SCENES = {
         "sfx": "music_sfx_audio/sfx_wwi_trench_ambience.wav",
         "emphasis": [(6.937, 12.303, "CHEMICAL WEAPONS")],
         "insert": (13.0, 4.0, f"{INFO_CARDS}/card_ypres.png")},
-    8: {"clips": ["scene8_legacy_farmland_veo.mp4"],
+    8: {"clips": ["scene8_legacy_farmland_veo.mp4", "scene8_clip_farmland.mp4"],
         "music": "music_sfx_audio/music_legacy_cue.wav", "sfx": None,
         "emphasis": [(11.921, 15.622, "HALF OF YOU")], "insert": None},
 }
