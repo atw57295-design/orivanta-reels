@@ -264,5 +264,26 @@
     "deadline_days_remaining": 0,
     "deadline_status": "EXPIRED",
     "days_past_deadline": 11
+  },
+  {
+    "date": "2026-11-13",
+    "note": "day-27/post-deadline-day-12: publishing healthy again today - checked Metricool getScheduledPosts 2026-11-11 to 2026-11-15: 11-11 (Ulfberht Viking swords) and 11-12 (Phaistos Disc) both confirmed PUBLISHED on all 4 networks (tiktok, facebook, youtube, instagram); TODAY 2026-11-13 (Nazca Lines) is ALSO already confirmed PUBLISHED on all 4 networks; 11-14 (Library of Alexandria) and 11-15 (Mechanical Turk/Automaton) are correctly PENDING, scheduled 18:00 Asia/Damascus on all 4 networks each - no stuck/failed posts anywhere in the window. BUT this is still entirely the undocumented off-pipeline batch: content_plan.json/episodes/videos pipeline described in ROUTINE_PROMPT.md remains fully dead - zero commits to episodes/ or videos/epNN.mp4 since 2026-11-06 (7 days straight now); today's content_plan row id=14 (2026-11-13) still says 'script being written' even though its topic (Phaistos Disc) already published off-pipeline YESTERDAY, and today's actual topic (Nazca Lines) is content_plan row id=18, dated 2026-11-19 - i.e. the off-pipeline batch is now running 6 days ahead of the dead content_plan schedule. All of yesterday's and today's actual repo commits continue to be spent entirely on the unrelated 'Haber Bosch' cinematic documentary side project (videos/cinematic_test/*), not on this channel's growth routine. Instagram remains on every post by default (standing exclusion-rule violation, unresolved since 2026-11-03, now 10+ days). GROWTH: real continued movement - tiktok_followers rose 5->6 and facebook_followers rose 5->6 between 2026-11-11 and 2026-11-12 (both confirmed, first growth since the 11-10/11-11 jump); youtube_subscribers flat at 17 for a 2nd straight confirmed day (2026-11-11 and 2026-11-12); instagram_followers flat at 2 since the network connected, still no confirmed reading past 2026-11-11. Metricool analytics lag ~1 day as usual - no confirmed reading yet for 2026-11-13 itself.",
+    "tiktok_followers": 6,
+    "youtube_subscribers": 17,
+    "facebook_followers": 6,
+    "instagram_followers": 2,
+    "tiktok_views": 736,
+    "tiktok_likes": 9,
+    "youtube_views": null,
+    "facebook_reels_views": 233,
+    "facebook_reels_likes": 1,
+    "instagram_reels_views": 120,
+    "instagram_reels_likes": 5,
+    "data_as_of": "2026-11-12 confirmed (tiktok/facebook/youtube subscribers); instagram_followers last confirmed 2026-11-11 (one extra day of lag)",
+    "deadline_window_started": "2026-10-28",
+    "deadline_window_ended": "2026-11-01",
+    "deadline_days_remaining": 0,
+    "deadline_status": "EXPIRED",
+    "days_past_deadline": 12
   }
 ]
