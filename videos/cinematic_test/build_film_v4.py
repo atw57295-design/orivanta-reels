@@ -62,7 +62,7 @@ SCENES = {
         "music": "music_sfx_audio/music_first_signal_cue.wav", "sfx": None,
         "emphasis": [(20.375, 23.858, "A WAR")],
         "insert": (23.9, 4.0, f"{INFO_CARDS}/card_war_of_pacific.png")},
-    3: {"clips": ["scene3_lab_kling.mp4"],
+    3: {"clips": ["scene3_lab_kling.mp4", "scene3_clip_lab.mp4"],
         "music": "music_sfx_audio/music_first_signal_cue.wav",
         "sfx": "music_sfx_audio/sfx_laboratory_ambience.wav",
         "emphasis": [(14.279, 15.279, "...AND FAILED.")],
