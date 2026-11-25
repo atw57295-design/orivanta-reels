@@ -1,0 +1,27 @@
+Carl Bosch was a BASF chemist with an engineer's mind and training in metallurgy. In 1909, BASF gave him the job of turning a laboratory experiment into an industry.
+
+The pressures and temperatures it required went well beyond anything industry had handled before.
+
+Three problems stood in the way.
+
+The first was the catalyst. Osmium worked — but it was extremely rare. There wasn't enough of it to supply an industry.
+
+So the BASF laboratory under Alwin Mittasch began a systematic search — testing one material after another in small test reactors. Bosch later said that, over the years, the number of tests grew to... twenty thousand.
+
+The answer was a catalyst based on iron, with small additions of other compounds: cheap, abundant, and durable. Iron-based catalysts are still used today.
+
+The second problem was more dangerous. Bosch's team had ordered strong steel reactor tubes from the Mannesmann works. The first two ran for eighty hours... Then they burst.
+
+When Bosch examined the metal, the inner wall had lost all its elasticity. As he explained in his Nobel lecture, hydrogen had penetrated the steel and turned it brittle.
+
+Bosch, who knew metallurgy, found the mechanism: the hot, high-pressure hydrogen was pulling carbon out of the steel, leaving it soft and brittle at the same time.
+
+His solution was elegant. A thin lining of soft steel, inside a strong outer steel jacket drilled with many small holes. Hydrogen that seeped through the lining could escape through the holes before it weakened the jacket. The lining could simply be replaced.
+
+The third problem was everything else: making hydrogen and nitrogen cheaply and pure enough, compressing them, and building equipment that could run around the clock.
+
+Hydrogen alone required a new industry. BASF would make it from coal, coke, air and water — in what Bosch later called the largest gas production facilities ever built.
+
+It took years and enormous risk. But Bosch's team made high-pressure chemistry work at industrial scale.
+
+That achievement would later earn Bosch his own Nobel Prize, in 1931.
