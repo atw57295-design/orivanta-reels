@@ -1,0 +1,270 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter SemiBold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,4,1,2,140,140,70,1
+Style: OST,Inter Display Bold,54,&H0070D0F5,&H00FFFFFF,&H50000000,&H50000000,0,0,0,0,100,100,3,0,3,16,0,8,200,200,64,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.42,Sub,,0,0,0,,By some estimates, half the nitrogen in your body was pulled from the air by a machine.
+Dialogue: 0,0:00:05.69,0:00:06.74,Sub,,0,0,0,,Not a plant.
+Dialogue: 0,0:00:06.80,0:00:07.84,Sub,,0,0,0,,A machine.
+Dialogue: 0,0:00:08.25,0:00:10.81,Sub,,0,0,0,,The air is seventy-eight percent nitrogen.
+Dialogue: 0,0:00:11.02,0:00:12.69,Sub,,0,0,0,,Every cell needs it.
+Dialogue: 0,0:00:13.01,0:00:15.80,Sub,,0,0,0,,For most of history, we couldn't use a breath of it.
+Dialogue: 0,0:00:16.17,0:00:18.09,Sub,,0,0,0,,Three men cracked that problem.
+Dialogue: 0,0:00:18.29,0:00:20.14,Sub,,0,0,0,,Only two became famous.
+Dialogue: 0,0:00:20.44,0:00:24.66,Sub,,0,0,0,,And the same chemistry that fed billions would also fuel a war.
+Dialogue: 0,0:00:24.68,0:00:30.55,Sub,,0,0,0,,In 1898, the British scientist Sir William Crookes used his presidential address to
+Dialogue: 0,0:00:30.55,0:00:33.56,Sub,,0,0,0,,the British Association to deliver a warning.
+Dialogue: 0,0:00:33.94,0:00:37.81,Sub,,0,0,0,,The world, he said, was heading toward a wheat shortage.
+Dialogue: 0,0:00:37.93,0:00:39.64,Sub,,0,0,0,,Populations were rising.
+Dialogue: 0,0:00:39.86,0:00:41.67,Sub,,0,0,0,,Farmland was wearing out.
+Dialogue: 0,0:00:41.78,0:00:44.91,Sub,,0,0,0,,And the thing crops needed most was running low.
+Dialogue: 0,0:00:45.00,0:00:47.06,Sub,,0,0,0,,That thing was nitrogen.
+Dialogue: 0,0:00:47.45,0:00:49.88,Sub,,0,0,0,,Plants can't use nitrogen gas.
+Dialogue: 0,0:00:49.97,0:00:54.84,Sub,,0,0,0,,Its two atoms are bound so tightly that only a few things in nature can pull them apart
+Dialogue: 0,0:00:54.84,0:00:58.46,Sub,,0,0,0,,certain bacteria, and the violence of lightning.
+Dialogue: 0,0:00:58.71,0:01:04.86,Sub,,0,0,0,,Everything else has to be recycled: manure, compost, the remains of living things.
+Dialogue: 0,0:01:05.09,0:01:08.27,Sub,,0,0,0,,By the nineteenth century, recycling wasn't enough.
+Dialogue: 0,0:01:08.52,0:01:11.68,Sub,,0,0,0,,So the world went looking for nitrogen that was already fixed
+Dialogue: 0,0:01:11.68,0:01:14.82,Sub,,0,0,0,,and found it in two strange places.
+Dialogue: 0,0:01:14.95,0:01:19.27,Sub,,0,0,0,,The first was bird droppings: centuries of seabird guano,
+Dialogue: 0,0:01:19.27,0:01:23.91,Sub,,0,0,0,,piled on islands off the coast of Peru and shipped to Europe by the ton.
+Dialogue: 0,0:01:24.19,0:01:28.58,Sub,,0,0,0,,The second was the Atacama Desert, one of the driest places on Earth,
+Dialogue: 0,0:01:28.58,0:01:32.75,Sub,,0,0,0,,where vast beds of sodium nitrate lay just beneath the surface.
+Dialogue: 0,0:01:32.90,0:01:37.38,Sub,,0,0,0,,But in the 1870s, the richest of those deposits were not in Chile.
+Dialogue: 0,0:01:37.56,0:01:40.81,Sub,,0,0,0,,They lay in Peru's southern province of Tarapacá,
+Dialogue: 0,0:01:40.81,0:01:44.48,Sub,,0,0,0,,and along Bolivia's coast, around the port of Antofagasta.
+Dialogue: 0,0:01:44.67,0:01:48.28,Sub,,0,0,0,,Much of the work there was done by Chilean and British companies.
+Dialogue: 0,0:01:48.43,0:01:54.83,Sub,,0,0,0,,In 1878, Bolivia tried to raise taxes on the Chilean-run Antofagasta Nitrate Company.
+Dialogue: 0,0:01:54.92,0:01:57.79,Sub,,0,0,0,,When Bolivia threatened to seize the company's property,
+Dialogue: 0,0:01:57.79,0:02:00.54,Sub,,0,0,0,,Chilean forces occupied Antofagasta on February fourteenth,
+Dialogue: 0,0:02:00.54,0:02:01.95,Sub,,0,0,0,,eighteen seventy-nine.
+Dialogue: 0,0:02:03.57,0:02:05.48,Sub,,0,0,0,,Bolivia declared war on Chile
+Dialogue: 0,0:02:05.48,0:02:10.18,Sub,,0,0,0,,and Chile went to war with both Bolivia and its ally, Peru.
+Dialogue: 0,0:02:10.29,0:02:13.11,Sub,,0,0,0,,It became known as the War of the Pacific.
+Dialogue: 0,0:02:13.22,0:02:15.26,Sub,,0,0,0,,It lasted five years.
+Dialogue: 0,0:02:15.30,0:02:16.56,Sub,,0,0,0,,Chile won.
+Dialogue: 0,0:02:16.82,0:02:21.63,Sub,,0,0,0,,In the Treaty of Ancón, in 1883, Peru gave up Tarapacá.
+Dialogue: 0,0:02:21.73,0:02:25.63,Sub,,0,0,0,,A truce in 1884 gave Chile the entire Bolivian coast,
+Dialogue: 0,0:02:25.63,0:02:29.51,Sub,,0,0,0,,with its nitrate, copper and mineral industries.
+Dialogue: 0,0:02:29.56,0:02:32.42,Sub,,0,0,0,,A treaty in 1904 made it permanent.
+Dialogue: 0,0:02:32.53,0:02:34.78,Sub,,0,0,0,,Bolivia has had no coastline... ever since.
+Dialogue: 0,0:02:35.87,0:02:40.18,Sub,,0,0,0,,Chilean saltpeter became one of the world's most sought-after commodities.
+Dialogue: 0,0:02:40.20,0:02:41.44,Sub,,0,0,0,,And here's the problem.
+Dialogue: 0,0:02:41.53,0:02:43.75,Sub,,0,0,0,,Nitrate didn't only grow wheat.
+Dialogue: 0,0:02:43.77,0:02:46.67,Sub,,0,0,0,,It also made gunpowder and explosives.
+Dialogue: 0,0:02:46.70,0:02:50.58,Sub,,0,0,0,,Whoever controlled those sea lanes controlled both food and firepower.
+Dialogue: 0,0:02:50.60,0:02:55.49,Sub,,0,0,0,,Crookes's message was simple: the deposits would not last.
+Dialogue: 0,0:02:55.51,0:02:58.99,Sub,,0,0,0,,The way forward was to take nitrogen straight from the air.
+Dialogue: 0,0:02:59.08,0:03:01.34,Sub,,0,0,0,,Someone had to figure out how.
+Dialogue: 0,0:03:01.36,0:03:05.13,Sub,,0,0,0,,Fritz Haber was a chemist at the technical university in Karlsruhe,
+Dialogue: 0,0:03:05.13,0:03:09.36,Sub,,0,0,0,,Germany — ambitious, brilliant, and restless.
+Dialogue: 0,0:03:09.77,0:03:12.62,Sub,,0,0,0,,He had begun studying the reaction that mattered:
+Dialogue: 0,0:03:12.62,0:03:15.93,Sub,,0,0,0,,nitrogen plus hydrogen, making ammonia.
+Dialogue: 0,0:03:16.56,0:03:18.51,Sub,,0,0,0,,Haber had grown up in Breslau,
+Dialogue: 0,0:03:18.51,0:03:22.31,Sub,,0,0,0,,then a German city, today Wrocław in Poland,
+Dialogue: 0,0:03:22.31,0:03:23.56,Sub,,0,0,0,,in a Jewish family.
+Dialogue: 0,0:03:23.96,0:03:28.04,Sub,,0,0,0,,He was proud, driven, and fiercely loyal to Germany.
+Dialogue: 0,0:03:28.68,0:03:31.92,Sub,,0,0,0,,In 1901, he married another chemist from Breslau: Clara Immerwahr.
+Dialogue: 0,0:03:33.97,0:03:37.03,Sub,,0,0,0,,Just months earlier, in December 1900,
+Dialogue: 0,0:03:37.03,0:03:41.54,Sub,,0,0,0,,Clara had become the first woman to earn a doctorate from the University of Breslau.
+Dialogue: 0,0:03:41.93,0:03:44.62,Sub,,0,0,0,,She defended her thesis in the university's main hall
+Dialogue: 0,0:03:44.62,0:03:47.99,Sub,,0,0,0,,and many young women of the city came to watch.
+Dialogue: 0,0:03:48.53,0:03:53.61,Sub,,0,0,0,,After the wedding, the expectations of the time left her little room for her own research.
+Dialogue: 0,0:03:53.85,0:03:56.05,Sub,,0,0,0,,Her husband's career came first.
+Dialogue: 0,0:03:56.59,0:03:57.92,Sub,,0,0,0,,Remember her name.
+Dialogue: 0,0:03:58.29,0:04:01.05,Sub,,0,0,0,,In Part 2, she becomes part of the story.
+Dialogue: 0,0:04:01.68,0:04:04.36,Sub,,0,0,0,,On paper, Haber's reaction is simple.
+Dialogue: 0,0:04:04.64,0:04:06.71,Sub,,0,0,0,,In practice, it's a trap.
+Dialogue: 0,0:04:07.11,0:04:11.87,Sub,,0,0,0,,Heat the gases, and the reaction speeds up — but the ammonia falls apart again.
+Dialogue: 0,0:04:12.32,0:04:15.51,Sub,,0,0,0,,Cool them down, and almost nothing happens at all.
+Dialogue: 0,0:04:16.11,0:04:19.95,Sub,,0,0,0,,Haber's early measurements found only tiny traces of ammonia.
+Dialogue: 0,0:04:20.34,0:04:23.56,Sub,,0,0,0,,And in May 1907, at a meeting of the Bunsen Society in Hamburg,
+Dialogue: 0,0:04:23.56,0:04:28.26,Sub,,0,0,0,,Walther Nernst — one of the most respected chemists in Germany
+Dialogue: 0,0:04:28.26,0:04:30.73,Sub,,0,0,0,,publicly called Haber's numbers very inaccurate.
+Dialogue: 0,0:04:30.75,0:04:32.14,Sub,,0,0,0,,Haber was deeply offended.
+Dialogue: 0,0:04:35.13,0:04:38.60,Sub,,0,0,0,,But Nernst had also proposed repeating the measurements at higher pressure.
+Dialogue: 0,0:04:38.62,0:04:43.03,Sub,,0,0,0,,Haber took that idea further than anyone had dared.
+Dialogue: 0,0:04:43.33,0:04:47.82,Sub,,0,0,0,,To do it, he needed someone who could build equipment that didn't yet exist.
+Dialogue: 0,0:04:48.37,0:04:53.85,Sub,,0,0,0,,That person was Robert Le Rossignol — a young British chemist from the island of Jersey,
+Dialogue: 0,0:04:53.85,0:04:57.65,Sub,,0,0,0,,trained at University College London, who had joined Haber in Karlsruhe.
+Dialogue: 0,0:04:57.67,0:05:01.19,Sub,,0,0,0,,Le Rossignol built the high-pressure apparatus
+Dialogue: 0,0:05:01.19,0:05:06.01,Sub,,0,0,0,,with valves and seals that could hold gas at around two hundred times normal
+Dialogue: 0,0:05:06.01,0:05:07.60,Sub,,0,0,0,,atmospheric pressure.
+Dialogue: 0,0:05:08.17,0:05:10.94,Sub,,0,0,0,,Near the end of his life, he summed up their partnership simply:
+Dialogue: 0,0:05:10.94,0:05:15.87,Sub,,0,0,0,,Haber did the theoretical side, and he did the engineering side.
+Dialogue: 0,0:05:16.40,0:05:20.69,Sub,,0,0,0,,Their apparatus kept circulating the unreacted gas over a catalyst,
+Dialogue: 0,0:05:20.69,0:05:22.87,Sub,,0,0,0,,drawing off ammonia as it formed.
+Dialogue: 0,0:05:23.12,0:05:25.54,Sub,,0,0,0,,The rare metal osmium made it work.
+Dialogue: 0,0:05:25.99,0:05:30.97,Sub,,0,0,0,,By the summer of 1909, they were ready to show it to the people who could make it real.
+Dialogue: 0,0:05:31.10,0:05:35.51,Sub,,0,0,0,,Since 1908, Haber had been working under contract with BASF
+Dialogue: 0,0:05:35.51,0:05:42.08,Sub,,0,0,0,,the Badische Anilin- und Soda-Fabrik, one of the largest chemical companies in the world.
+Dialogue: 0,0:05:42.46,0:05:49.68,Sub,,0,0,0,,On July 2nd, 1909, Haber and Le Rossignol invited BASF to Karlsruhe for a demonstration.
+Dialogue: 0,0:05:50.08,0:05:51.76,Sub,,0,0,0,,Carl Bosch was invited.
+Dialogue: 0,0:05:51.99,0:05:56.03,Sub,,0,0,0,,But it was the chemist Alwin Mittasch and the company's chief mechanic,
+Dialogue: 0,0:05:56.03,0:05:57.90,Sub,,0,0,0,,Julius Kranz, who watched.
+Dialogue: 0,0:05:58.05,0:06:01.24,Sub,,0,0,0,,What they saw was a machine that sat on a table.
+Dialogue: 0,0:06:01.48,0:06:06.74,Sub,,0,0,0,,And out of it, drop by drop, came liquid ammonia — made from the air.
+Dialogue: 0,0:06:06.99,0:06:10.91,Sub,,0,0,0,,Roughly two cubic centimeters a minute, hour after hour.
+Dialogue: 0,0:06:11.15,0:06:12.31,Sub,,0,0,0,,It wasn't much.
+Dialogue: 0,0:06:12.38,0:06:14.09,Sub,,0,0,0,,But it was continuous.
+Dialogue: 0,0:06:14.11,0:06:14.65,Sub,,0,0,0,,It didn't stop.
+Dialogue: 0,0:06:14.67,0:06:19.68,Sub,,0,0,0,,Le Rossignol kept a sealed glass tube of the ammonia made that day.
+Dialogue: 0,0:06:19.92,0:06:23.92,Sub,,0,0,0,,More than forty years later, he gave it to the Science Museum in London.
+Dialogue: 0,0:06:24.19,0:06:29.17,Sub,,0,0,0,,The next day, Haber sent BASF's directors a report of what they had witnessed.
+Dialogue: 0,0:06:29.24,0:06:32.12,Sub,,0,0,0,,But a machine on a table is not a factory.
+Dialogue: 0,0:06:32.27,0:06:37.17,Sub,,0,0,0,,And there was a question that still hangs over this moment: whose invention was it?
+Dialogue: 0,0:06:37.19,0:06:40.28,Sub,,0,0,0,,The process would be called the Haber process.
+Dialogue: 0,0:06:40.38,0:06:42.77,Sub,,0,0,0,,Later, the Haber-Bosch process.
+Dialogue: 0,0:06:43.03,0:06:45.78,Sub,,0,0,0,,But look closely... at the paperwork.
+Dialogue: 0,0:06:46.07,0:06:50.05,Sub,,0,0,0,,On the American patent, Haber put Le Rossignol's name beside his own
+Dialogue: 0,0:06:50.05,0:06:53.84,Sub,,0,0,0,,and gave him a share of the royalties that would one day make him rich.
+Dialogue: 0,0:06:53.86,0:06:59.09,Sub,,0,0,0,,Le Rossignol later said that Haber had handled the whole patent matter.
+Dialogue: 0,0:06:59.39,0:07:02.32,Sub,,0,0,0,,He left Karlsruhe in August 1909,
+Dialogue: 0,0:07:02.32,0:07:06.47,Sub,,0,0,0,,just as BASF began the long work of industrialization.
+Dialogue: 0,0:07:06.71,0:07:09.86,Sub,,0,0,0,,He went on to a career in industrial research in Britain,
+Dialogue: 0,0:07:09.86,0:07:12.54,Sub,,0,0,0,,and used his royalty income for philanthropy.
+Dialogue: 0,0:07:12.81,0:07:15.68,Sub,,0,0,0,,The Nobel Prize, when it came, went to Haber alone.
+Dialogue: 0,0:07:15.70,0:07:19.54,Sub,,0,0,0,,Le Rossignol's name faded from the story.
+Dialogue: 0,0:07:19.90,0:07:21.65,Sub,,0,0,0,,So here's a question for you.
+Dialogue: 0,0:07:21.84,0:07:25.86,Sub,,0,0,0,,Who deserves the credit for an invention — the person with the idea,
+Dialogue: 0,0:07:25.86,0:07:31.14,Sub,,0,0,0,,the person who builds the first working machine, or the person who makes it work for millions?
+Dialogue: 0,0:07:31.29,0:07:33.20,Sub,,0,0,0,,Tell us what you think in the comments.
+Dialogue: 0,0:07:33.50,0:07:39.01,Sub,,0,0,0,,And the second name on the process belonged to a man who hadn't built the tabletop machine at all.
+Dialogue: 0,0:07:39.11,0:07:43.25,Sub,,0,0,0,,He was the one who had to make it work at a scale no one had ever attempted.
+Dialogue: 0,0:07:43.27,0:07:48.72,Sub,,0,0,0,,Carl Bosch was a BASF chemist with an engineer's mind and training in metallurgy.
+Dialogue: 0,0:07:48.74,0:07:56.35,Sub,,0,0,0,,In 1909, BASF gave him the job of turning a laboratory experiment into an industry.
+Dialogue: 0,0:07:56.74,0:08:02.30,Sub,,0,0,0,,The pressures and temperatures it required went well beyond anything industry had handled before.
+Dialogue: 0,0:08:02.74,0:08:04.62,Sub,,0,0,0,,Three problems stood in the way.
+Dialogue: 0,0:08:04.91,0:08:06.87,Sub,,0,0,0,,The first was the catalyst.
+Dialogue: 0,0:08:07.06,0:08:10.04,Sub,,0,0,0,,Osmium worked — but it was extremely rare.
+Dialogue: 0,0:08:10.19,0:08:12.56,Sub,,0,0,0,,There wasn't enough of it to supply an industry.
+Dialogue: 0,0:08:12.89,0:08:17.88,Sub,,0,0,0,,So the BASF laboratory under Alwin Mittasch began a systematic search
+Dialogue: 0,0:08:17.88,0:08:21.72,Sub,,0,0,0,,testing one material after another in small test reactors.
+Dialogue: 0,0:08:21.74,0:08:24.82,Sub,,0,0,0,,Bosch later said that, over the years,
+Dialogue: 0,0:08:24.82,0:08:27.26,Sub,,0,0,0,,the number of tests grew to... twenty thousand.
+Dialogue: 0,0:08:29.39,0:08:32.14,Sub,,0,0,0,,The answer was a catalyst based on iron,
+Dialogue: 0,0:08:32.14,0:08:34.53,Sub,,0,0,0,,with small additions of other compounds:
+Dialogue: 0,0:08:34.53,0:08:36.87,Sub,,0,0,0,,cheap, abundant, and durable.
+Dialogue: 0,0:08:37.13,0:08:39.77,Sub,,0,0,0,,Iron-based catalysts are still used today.
+Dialogue: 0,0:08:40.32,0:08:42.70,Sub,,0,0,0,,The second problem was more dangerous.
+Dialogue: 0,0:08:42.85,0:08:47.46,Sub,,0,0,0,,Bosch's team had ordered strong steel reactor tubes from the Mannesmann works.
+Dialogue: 0,0:08:47.59,0:08:51.94,Sub,,0,0,0,,The first two ran for eighty hours... Then they burst.
+Dialogue: 0,0:08:52.16,0:08:56.58,Sub,,0,0,0,,When Bosch examined the metal, the inner wall had lost all its elasticity.
+Dialogue: 0,0:08:56.84,0:08:59.03,Sub,,0,0,0,,As he explained in his Nobel lecture,
+Dialogue: 0,0:08:59.03,0:09:02.35,Sub,,0,0,0,,hydrogen had penetrated the steel and turned it brittle.
+Dialogue: 0,0:09:02.59,0:09:06.30,Sub,,0,0,0,,Bosch, who knew metallurgy, found the mechanism: the hot,
+Dialogue: 0,0:09:06.30,0:09:10.04,Sub,,0,0,0,,high-pressure hydrogen was pulling carbon out of the steel,
+Dialogue: 0,0:09:10.04,0:09:12.67,Sub,,0,0,0,,leaving it soft and brittle at the same time.
+Dialogue: 0,0:09:12.96,0:09:14.75,Sub,,0,0,0,,His solution was elegant.
+Dialogue: 0,0:09:14.92,0:09:21.39,Sub,,0,0,0,,A thin lining of soft steel, inside a strong outer steel jacket drilled with many small holes.
+Dialogue: 0,0:09:21.55,0:09:25.08,Sub,,0,0,0,,Hydrogen that seeped through the lining could escape through the holes before it
+Dialogue: 0,0:09:25.08,0:09:26.35,Sub,,0,0,0,,weakened the jacket.
+Dialogue: 0,0:09:26.51,0:09:28.63,Sub,,0,0,0,,The lining could simply be replaced.
+Dialogue: 0,0:09:28.86,0:09:34.72,Sub,,0,0,0,,The third problem was everything else: making hydrogen and nitrogen cheaply and pure enough,
+Dialogue: 0,0:09:34.72,0:09:38.43,Sub,,0,0,0,,compressing them, and building equipment that could run around the clock.
+Dialogue: 0,0:09:38.62,0:09:41.34,Sub,,0,0,0,,Hydrogen alone required a new industry.
+Dialogue: 0,0:09:41.56,0:09:45.14,Sub,,0,0,0,,BASF would make it from coal, coke, air and water
+Dialogue: 0,0:09:45.14,0:09:50.24,Sub,,0,0,0,,in what Bosch later called the largest gas production facilities ever built.
+Dialogue: 0,0:09:50.45,0:09:53.07,Sub,,0,0,0,,It took years and enormous risk.
+Dialogue: 0,0:09:53.12,0:09:57.48,Sub,,0,0,0,,But Bosch's team made high-pressure chemistry work at industrial scale.
+Dialogue: 0,0:09:57.66,0:10:02.38,Sub,,0,0,0,,That achievement would later earn Bosch his own Nobel Prize, in 1931.
+Dialogue: 0,0:10:02.54,0:10:08.33,Sub,,0,0,0,,On September 9th, 1913, the world's first ammonia synthesis plant went into
+Dialogue: 0,0:10:08.33,0:10:12.93,Sub,,0,0,0,,operation at Oppau — today part of Ludwigshafen, on the Rhine.
+Dialogue: 0,0:10:13.55,0:10:19.73,Sub,,0,0,0,,According to BASF, the new plant could produce up to... thirty tonnes of ammonia a day.
+Dialogue: 0,0:10:20.37,0:10:25.35,Sub,,0,0,0,,Nobody yet knew exactly how farmers' crops would respond to this new fertilizer.
+Dialogue: 0,0:10:25.72,0:10:29.72,Sub,,0,0,0,,So in the spring of 1914, on Bosch's proposal,
+Dialogue: 0,0:10:29.72,0:10:34.20,Sub,,0,0,0,,BASF set up an agricultural research station at Limburgerhof,
+Dialogue: 0,0:10:34.20,0:10:36.28,Sub,,0,0,0,,near Ludwigshafen, to find out.
+Dialogue: 0,0:10:36.88,0:10:41.89,Sub,,0,0,0,,What started as drops on a tabletop became one of the most important industrial
+Dialogue: 0,0:10:41.89,0:10:43.67,Sub,,0,0,0,,processes ever created.
+Dialogue: 0,0:10:44.07,0:10:48.09,Sub,,0,0,0,,Synthetic fertilizer spread across the world through the twentieth century,
+Dialogue: 0,0:10:48.09,0:10:51.55,Sub,,0,0,0,,helping farmers grow far more food on the same land.
+Dialogue: 0,0:10:51.97,0:10:55.26,Sub,,0,0,0,,Researchers estimate that by the early twenty-first century,
+Dialogue: 0,0:10:55.26,0:10:59.96,Sub,,0,0,0,,close to... half of the world's population was being fed by food grown with nitrogen
+Dialogue: 0,0:10:59.96,0:11:00.99,Sub,,0,0,0,,from this process.
+Dialogue: 0,0:11:01.01,0:11:05.34,Sub,,0,0,0,,Crookes's famine never came the way he feared.
+Dialogue: 0,0:11:05.68,0:11:08.74,Sub,,0,0,0,,The chemists had pulled bread out of the air.
+Dialogue: 0,0:11:08.76,0:11:11.11,Sub,,0,0,0,,But remember what else nitrate made.
+Dialogue: 0,0:11:11.42,0:11:14.38,Sub,,0,0,0,,Germany had no nitrate deposits of its own.
+Dialogue: 0,0:11:14.82,0:11:17.12,Sub,,0,0,0,,Most of what it used — for its fields,
+Dialogue: 0,0:11:17.12,0:11:20.82,Sub,,0,0,0,,and for its explosives — came by sea, from Chile.
+Dialogue: 0,0:11:21.48,0:11:25.17,Sub,,0,0,0,,In the summer of 1914, Europe went to war.
+Dialogue: 0,0:11:25.52,0:11:27.90,Sub,,0,0,0,,And the sea lanes were about to close.
+Dialogue: 0,0:11:28.23,0:11:32.04,Sub,,0,0,0,,Robert Le Rossignol, the British engineer who had built the first machine,
+Dialogue: 0,0:11:32.04,0:11:33.87,Sub,,0,0,0,,was still living in Germany.
+Dialogue: 0,0:11:34.29,0:11:37.36,Sub,,0,0,0,,When war broke out, he was interned as an enemy alien
+Dialogue: 0,0:11:37.36,0:11:41.79,Sub,,0,0,0,,and later released to work for a German company for the rest of the war.
+Dialogue: 0,0:11:42.17,0:11:43.28,Sub,,0,0,0,,In Part 2:
+Dialogue: 0,0:11:43.41,0:11:46.81,Sub,,0,0,0,,how the process that fed the world kept an army fighting —
+Dialogue: 0,0:11:47.12,0:11:51.63,Sub,,0,0,0,,and why Fritz Haber was standing behind a cloud of poison gas at Ypres.
+Dialogue: 1,0:00:00.00,0:00:05.57,OST,,0,0,0,,{\fad(200,200)}≈ HALF OF YOUR BODY'S NITROGEN · ESTIMATE
+Dialogue: 1,0:00:27.65,0:00:30.73,OST,,0,0,0,,{\fad(200,200)}1898 · SIR WILLIAM CROOKES
+Dialogue: 1,0:00:30.73,0:00:33.71,OST,,0,0,0,,{\fad(200,200)}1898 · SIR WILLIAM CROOKES
+Dialogue: 1,0:00:37.88,0:00:39.74,OST,,0,0,0,,{\fad(200,200)}POPULATIONS RISING
+Dialogue: 1,0:00:39.81,0:00:41.66,OST,,0,0,0,,{\fad(200,200)}FARMLAND WEARING OUT
+Dialogue: 1,0:01:14.90,0:01:17.91,OST,,0,0,0,,{\fad(200,200)}SEABIRD GUANO · ISLANDS OFF PERU
+Dialogue: 1,0:01:17.91,0:01:20.99,OST,,0,0,0,,{\fad(200,200)}SEABIRD GUANO · ISLANDS OFF PERU
+Dialogue: 1,0:01:20.99,0:01:24.06,OST,,0,0,0,,{\fad(200,200)}SEABIRD GUANO · ISLANDS OFF PERU
+Dialogue: 1,0:01:24.14,0:01:29.18,OST,,0,0,0,,{\fad(200,200)}ATACAMA DESERT · SODIUM NITRATE
+Dialogue: 1,0:01:29.18,0:01:32.78,OST,,0,0,0,,{\fad(200,200)}ATACAMA DESERT · SODIUM NITRATE
+Dialogue: 1,0:01:44.62,0:01:48.31,OST,,0,0,0,,{\fad(200,200)}CHILEAN & BRITISH COMPANIES
+Dialogue: 1,0:01:54.87,0:01:58.10,OST,,0,0,0,,{\fad(200,200)}ANTOFAGASTA
+Dialogue: 1,0:02:15.25,0:02:16.70,OST,,0,0,0,,{\fad(200,200)}CHILE WON
+Dialogue: 1,0:02:46.65,0:02:50.48,OST,,0,0,0,,{\fad(200,200)}FOOD & FIREPOWER
+Dialogue: 1,0:02:43.72,0:02:46.58,OST,,0,0,0,,{\fad(200,200)}GUNPOWDER · EXPLOSIVES
+Dialogue: 1,0:02:55.46,0:02:58.96,OST,,0,0,0,,{\fad(200,200)}NITROGEN FROM THE AIR
+Dialogue: 1,0:03:01.31,0:03:04.04,OST,,0,0,0,,{\fad(200,200)}FRITZ HABER · KARLSRUHE
+Dialogue: 1,0:03:04.04,0:03:06.85,OST,,0,0,0,,{\fad(200,200)}FRITZ HABER · KARLSRUHE
+Dialogue: 1,0:03:23.91,0:03:27.16,OST,,0,0,0,,{\fad(200,200)}FRITZ HABER
+Dialogue: 1,0:03:27.16,0:03:28.19,OST,,0,0,0,,{\fad(200,200)}FRITZ HABER
+Dialogue: 1,0:04:30.70,0:04:33.25,OST,,0,0,0,,{\fad(200,200)}HABER
+Dialogue: 1,0:04:38.57,0:04:43.18,OST,,0,0,0,,{\fad(200,200)}~200× ATMOSPHERIC PRESSURE
+Dialogue: 1,0:04:43.28,0:04:44.65,OST,,0,0,0,,{\fad(200,200)}EQUIPMENT THAT DIDN'T YET EXIST
+Dialogue: 1,0:04:57.62,0:05:00.85,OST,,0,0,0,,{\fad(200,200)}~200× ATMOSPHERIC PRESSURE
+Dialogue: 1,0:05:16.35,0:05:19.40,OST,,0,0,0,,{\fad(200,200)}GAS RECYCLED OVER A CATALYST
+Dialogue: 1,0:05:25.94,0:05:27.38,OST,,0,0,0,,{\fad(200,200)}SUMMER 1909
+Dialogue: 1,0:05:31.05,0:05:34.28,OST,,0,0,0,,{\fad(200,200)}BASF
+Dialogue: 1,0:05:34.28,0:05:36.28,OST,,0,0,0,,{\fad(200,200)}BASF
+Dialogue: 1,0:05:58.00,0:05:59.64,OST,,0,0,0,,{\fad(200,200)}THE TABLETOP MACHINE
+Dialogue: 1,0:05:59.64,0:06:01.36,OST,,0,0,0,,{\fad(200,200)}THE TABLETOP MACHINE
+Dialogue: 1,0:06:01.43,0:06:04.12,OST,,0,0,0,,{\fad(200,200)}LIQUID AMMONIA, MADE FROM THE AIR
+Dialogue: 1,0:06:04.12,0:06:06.87,OST,,0,0,0,,{\fad(200,200)}LIQUID AMMONIA, MADE FROM THE AIR
+Dialogue: 1,0:06:11.10,0:06:12.79,OST,,0,0,0,,{\fad(200,200)}CONTINUOUS
+Dialogue: 1,0:06:29.19,0:06:32.15,OST,,0,0,0,,{\fad(200,200)}NOT A FACTORY
+Dialogue: 1,0:07:06.66,0:07:12.69,OST,,0,0,0,,{\fad(200,200)}INDUSTRIAL RESEARCH IN BRITAIN
+Dialogue: 1,0:07:12.76,0:07:15.58,OST,,0,0,0,,{\fad(200,200)}NOBEL PRIZE · FRITZ HABER
+Dialogue: 1,0:07:33.45,0:07:39.16,OST,,0,0,0,,{\fad(200,200)}THE SECOND NAME
+Dialogue: 1,0:07:39.06,0:07:43.15,OST,,0,0,0,,{\fad(200,200)}A SCALE NEVER ATTEMPTED
+Dialogue: 1,0:07:43.22,0:07:45.88,OST,,0,0,0,,{\fad(200,200)}CARL BOSCH · BASF
+Dialogue: 1,0:07:48.69,0:07:52.62,OST,,0,0,0,,{\fad(200,200)}1909 · BASF
+Dialogue: 1,0:07:56.69,0:08:02.45,OST,,0,0,0,,{\fad(200,200)}PRESSURES & TEMPERATURES BEYOND ANY INDUSTRY
+Dialogue: 1,0:08:12.84,0:08:15.77,OST,,0,0,0,,{\fad(200,200)}ALWIN MITTASCH
+Dialogue: 1,0:08:37.08,0:08:39.92,OST,,0,0,0,,{\fad(200,200)}IRON CATALYSTS · STILL USED TODAY
+Dialogue: 1,0:08:42.80,0:08:45.87,OST,,0,0,0,,{\fad(200,200)}MANNESMANN WORKS
+Dialogue: 1,0:08:45.87,0:08:47.47,OST,,0,0,0,,{\fad(200,200)}MANNESMANN WORKS
+Dialogue: 1,0:09:38.57,0:09:41.49,OST,,0,0,0,,{\fad(200,200)}HYDROGEN: A NEW INDUSTRY
+Dialogue: 1,0:09:50.40,0:09:53.22,OST,,0,0,0,,{\fad(200,200)}YEARS OF RISK
+Dialogue: 1,0:09:53.07,0:09:57.54,OST,,0,0,0,,{\fad(200,200)}INDUSTRIAL SCALE
+Dialogue: 1,0:10:02.49,0:10:05.72,OST,,0,0,0,,{\fad(200,200)}9 SEPTEMBER 1913 · OPPAU
+Dialogue: 1,0:10:20.32,0:10:22.00,OST,,0,0,0,,{\fad(200,200)}A NEW FERTILIZER
+Dialogue: 1,0:10:36.83,0:10:39.21,OST,,0,0,0,,{\fad(200,200)}FROM TABLETOP DROPS
+Dialogue: 1,0:10:39.21,0:10:41.50,OST,,0,0,0,,{\fad(200,200)}FROM TABLETOP DROPS
+Dialogue: 1,0:10:41.50,0:10:43.82,OST,,0,0,0,,{\fad(200,200)}FROM TABLETOP DROPS
+Dialogue: 1,0:10:44.02,0:10:48.25,OST,,0,0,0,,{\fad(200,200)}20TH CENTURY · SYNTHETIC FERTILIZER
+Dialogue: 1,0:11:08.71,0:11:11.26,OST,,0,0,0,,{\fad(200,200)}NITRATE → EXPLOSIVES
+Dialogue: 1,0:11:21.43,0:11:23.38,OST,,0,0,0,,{\fad(200,200)}SUMMER 1914 · EUROPE AT WAR
+Dialogue: 1,0:11:23.38,0:11:25.32,OST,,0,0,0,,{\fad(200,200)}SUMMER 1914 · EUROPE AT WAR
+Dialogue: 1,0:11:25.47,0:11:28.05,OST,,0,0,0,,{\fad(200,200)}THE SEA LANES CLOSE
+Dialogue: 1,0:11:34.24,0:11:41.94,OST,,0,0,0,,{\fad(200,200)}INTERNED AS AN ENEMY ALIEN
+Dialogue: 1,0:11:42.12,0:11:44.67,OST,,0,0,0,,{\fad(200,200)}PART 2
+Dialogue: 1,0:11:43.36,0:11:46.96,OST,,0,0,0,,{\fad(200,200)}PART 2 · THE SAME CHEMISTRY MADE WAR
+Dialogue: 1,0:11:47.07,0:11:51.78,OST,,0,0,0,,{\fad(200,200)}FRITZ HABER · YPRES
